@@ -25,6 +25,7 @@ O método vem de três estudos pré-registrados, com dados abertos, cerca de 11 
 
 - **Ver o próprio raciocínio estabiliza a revisão.** Quando o modelo revê o próprio trabalho completo, e não só a escolha anterior, a troca de resposta cai de **18,8% para 2,9%**.
 - **O formato da engine estabiliza ainda mais.** Com o mesmo conteúdo, organizado em itens e relações em vez de texto corrido, a troca cai de **10,3% para 3,9%** (p = 0,00006), sem perder correções.
+- **E sai mais barato.** Nas mesmas perguntas e modelos, a revisão no formato da engine custou **6,6% menos** por chamada: o modelo recebe um pouco mais de contexto, mas reescreve menos.
 
 ## Teste nos seus documentos
 
@@ -110,7 +111,7 @@ Each answer ends with a structured declaration: every statement with a **type** 
 
 > This is one part of the system; the broader version is under testing.
 
-**Research.** Three preregistered studies with open data (DOIs above). Seeing its own full reasoning, rather than only its previous choice, cut answer changes from 18.8% to 2.9%. In the third, seeing one's own previous answer as items and relations, rather than plain text with the same content, made models change their answer in 3.9% of reviews against 10.3% (p = 0.00006, 431 pairs), with no loss of correction.
+**Research.** Three preregistered studies with open data (DOIs above). Seeing its own full reasoning, rather than only its previous choice, cut answer changes from 18.8% to 2.9%. In the third, seeing one's own previous answer as items and relations, rather than plain text with the same content, made models change their answer in 3.9% of reviews against 10.3% (p = 0.00006, 431 pairs), with no loss of correction, and at 6.6% lower cost per call.
 
 **Run.** `python -m unittest -v` (no dependencies, Python 3.10+). Example: `OPENROUTER_API_KEY=... python examples/run.py --model openai/gpt-4o-mini --language en`. Local dashboard: `pip install fastapi uvicorn && python dashboard/server.py` (127.0.0.1 only; the key lives in memory only). The dashboard also opens statically on a `resultado.json`.
 
