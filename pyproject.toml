@@ -1,5 +1,5 @@
 [project]
-name = "norvald-documental-engine"
+name = "norvald-engine-documental"
 version = "0.1.0"
 description = "O modelo declara o que sabe; a engine valida e organiza o contexto."
 readme = "README.md"
