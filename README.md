@@ -29,7 +29,7 @@ O método vem de três estudos pré-registrados, com dados abertos, cerca de 11 
 
 ## Teste nos seus documentos
 
-O código é aberto (Apache-2.0) e roda na sua máquina, com a sua chave: o documento não sai do seu ambiente. Se preferir, rodamos um piloto **gratuito** num documento e num conjunto de perguntas escolhidos por você, e entregamos o resultado com cada fonte marcada: **contato@norvald.com.br**.
+O código é aberto (Apache-2.0) e roda na sua máquina, com a sua chave: o documento não sai do seu ambiente. Dúvidas sobre integração ou sobre a pesquisa: **contato@norvald.com.br**.
 
 > Esta é uma parte do sistema; a versão mais ampla está em teste.
 
@@ -105,7 +105,7 @@ Eduardo Guedes · Norvald · ORCID [0009-0003-9960-3337](https://orcid.org/0009-
 
 For legal, compliance, regulatory and health teams running LLMs over documents. Works with any OpenAI-compatible model, no judge or second model. Runs on your machine with your key.
 
-**Free pilot** on a document and questions you choose: contato@norvald.com.br
+Questions about integration or the research: contato@norvald.com.br
 
 Each answer ends with a structured declaration: every statement with a **type** (claim, inference, decision, gap, open question...), a **confidence**, and its **relations** to the document excerpts that support it. The engine accepts what fits, rejects the rest with a reason, and stores everything in a graph, the Working Context. On the next turn the model sees its own reasoning in this form, not as running text.
 
