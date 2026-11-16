@@ -1,0 +1,15 @@
+[project]
+name = "norvald-documental-engine"
+version = "0.1.0"
+description = "O modelo declara o que sabe; a engine valida e organiza o contexto."
+readme = "README.md"
+license = {text = "Apache-2.0"}
+authors = [{name = "Eduardo Guedes"}]
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+dashboard = ["fastapi>=0.110", "uvicorn>=0.29"]
+
+[tool.setuptools]
+packages = ["documental_engine"]

@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Engine documental Norvald</title>
+<style>
+:root{--bg:#FBF8F2;--card:#FFFFFF;--ink:#2B2724;--muted:#6E655C;--line:#E6DCCB;--gold:#B08D57;--soft:#F3EEE4;--ok:#4F7A4A;--warn:#A3542F}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1F1C1A;--card:#2B2724;--ink:#F3EEE4;--muted:#BDB3A6;--line:#4A433D;--gold:#C9A56E;--soft:#35302B;--ok:#8DBB86;--warn:#E09A72}}
+:root[data-theme="dark"]{--bg:#1F1C1A;--card:#2B2724;--ink:#F3EEE4;--muted:#BDB3A6;--line:#4A433D;--gold:#C9A56E;--soft:#35302B;--ok:#8DBB86;--warn:#E09A72}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 Georgia,"Times New Roman",serif}
+main{max-width:980px;margin:0 auto;padding:32px 16px 64px}
+h1{font-size:2rem;margin:.2rem 0}
+.brand{color:var(--gold);letter-spacing:.2em;font-weight:bold;font-size:.85rem}
+.lead{color:var(--muted);margin:.2rem 0 1.5rem}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:18px 20px;margin:14px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px}
+.stat b{display:block;font-size:2rem;color:var(--gold)}
+.stat span{color:var(--muted);font-size:.9rem}
+label{display:block;font-size:.9rem;color:var(--muted);margin:.6rem 0 .2rem}
+input,select{width:100%;padding:9px 10px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink);font:inherit}
+button{background:var(--ink);color:var(--bg);border:0;border-radius:6px;padding:10px 18px;font:inherit;cursor:pointer;margin-top:12px}
+button:disabled{opacity:.5;cursor:wait}
+.tag{display:inline-block;font:12px/1.6 ui-monospace,Menlo,monospace;padding:0 7px;border-radius:4px;background:var(--soft);border:1px solid var(--line);margin-right:6px}
+.tag.gap,.tag.open_question,.tag.uncertainty{border-color:var(--gold);color:var(--gold)}
+.item{padding:6px 0;border-top:1px dashed var(--line)}
+.muted{color:var(--muted)}
+.ok{color:var(--ok)}.warn{color:var(--warn)}
+details summary{cursor:pointer;color:var(--muted);margin-top:8px}
+pre{white-space:pre-wrap;background:var(--soft);padding:10px;border-radius:6px;font-size:.85rem;overflow-x:auto}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media (max-width:700px){.cols{grid-template-columns:1fr}}
+footer{color:var(--muted);font-size:.85rem;margin-top:32px}
+</style>
+</head>
+<body>
+<main>
+  <div class="brand">NORVALD</div>
+  <h1>Engine documental</h1>
+  <p class="lead">O modelo declara o que sabe (tipo, confiança, relações e lacunas). A engine valida, recusa o que não fecha e organiza o resto. Exemplo: um trecho da LGPD e cinco perguntas, duas sem resposta no trecho.</p>
+
+  <section id="run" class="card" hidden>
+    <strong>Rodar com a sua chave</strong>
+    <p class="muted">A chave fica só na memória deste servidor local, durante a execução. Não é gravada.</p>
+    <label for="key">Chave de API (OpenRouter ou compatível com OpenAI)</label>
+    <input id="key" type="password" autocomplete="off">
+    <label for="model">Modelo</label>
+    <input id="model" value="openai/gpt-4o-mini">
+    <label for="base">Endereço da API</label>
+    <input id="base" value="https://openrouter.ai/api/v1">
+    <label for="lang">Idioma das instruções</label>
+    <select id="lang"><option value="pt-BR">Português</option><option value="en">English</option></select>
+    <button id="go">Rodar exemplo</button> <span id="status" class="muted"></span>
+  </section>
+
+  <section class="card">
+    <label for="file">Ou abra um resultado.json pronto</label>
+    <input id="file" type="file" accept="application/json,.json">
+  </section>
+
+  <section id="out"></section>
+
+  <footer>Esta é uma parte do sistema; a versão mais ampla está em teste. Pesquisa: DOI 10.5281/zenodo.24265239 · 10.5281/zenodo.24265355 · 10.5281/zenodo.24265357</footer>
+</main>
+<script>
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const GAP_TYPES = new Set(["gap","open_question","uncertainty"]);
+
+let EVIDENCE = {};
+function sources(id, rels){
+  const linked = (rels||[]).filter(r => r.target_id===id || r.source_id===id)
+    .map(r => r.source_id===id ? r.target_id : r.source_id)
+    .map(other => EVIDENCE[other]).filter(Boolean);
+  return linked.length ? `<div class="muted">↳ sustentado por: ${linked.map(esc).join(", ")}</div>` : "";
+}
+function items(list, rels){
+  if(!list || !list.length) return '<p class="muted">Nenhum item declarado.</p>';
+  return list.map(i => `<div class="item"><span class="tag ${esc(i.type)}">${esc(i.type)}</span>${i.confidence?`<span class="tag">${esc(i.confidence)}</span>`:""}${esc(i.content)}${sources(i.id, rels)}</div>`).join("");
+}
+function rejected(list){
+  if(!list || !list.length) return "";
+  return `<details><summary>${list.length} parte(s) recusada(s) pela engine</summary>${list.map(r=>`<div class="item"><span class="tag">${esc(r.kind)}</span>${esc(r.reason)}</div>`).join("")}</details>`;
+}
+function turn(t, title){
+  if(!t) return "";
+  return `<h4>${title}</h4><p>${esc(t.prose)}</p>${items(t.declared, t.relations)}<p class="muted">${(t.relations||[]).length} relação(ões) aceita(s)${t.block_found?"":" · <span class=warn>bloco de declaração ausente</span>"}</p>${rejected(t.rejected)}`;
+}
+function render(data){
+  const rs = data.results || [];
+  EVIDENCE = Object.fromEntries((data.evidence||[]).map(e => [e.id, e.source_location || e.id]));
+  const declared = rs.reduce((n,r)=>n+(r.answer?.declared?.length||0),0);
+  const rej = rs.reduce((n,r)=>n+(r.answer?.rejected?.length||0)+(r.review?.rejected?.length||0),0);
+  const unans = rs.filter(r=>r.answerable===false);
+  const flagged = unans.filter(r=>(r.answer?.declared||[]).some(i=>GAP_TYPES.has(i.type)));
+  $("#out").innerHTML = `
+  <div class="card"><div class="grid">
+    <div class="stat"><b>${rs.length}</b><span>perguntas · ${esc(data.model)}</span></div>
+    <div class="stat"><b>${declared}</b><span>itens declarados e aceitos</span></div>
+    <div class="stat"><b>${flagged.length}/${unans.length}</b><span>perguntas sem resposta no documento marcadas como lacuna</span></div>
+    <div class="stat"><b>${rej}</b><span>partes recusadas pela validação</span></div>
+  </div><p class="muted">Gerado em ${esc(data.generated_at)} · documento ${esc(data.document)} · engine ${esc(data.engine_version)}</p></div>
+  ${rs.map((r,i)=>`<div class="card">
+    <strong>${i+1}. ${esc(r.question)}</strong>
+    ${r.answerable===false?' <span class="tag gap">sem resposta no documento</span>':""}
+    <p class="muted">Esperado: ${esc(r.expected)}</p>
+    <div class="cols"><div>${turn(r.answer,"Com a engine")}</div><div>${turn(r.review,"Revisão (o modelo vê a própria resposta como itens)")}</div></div>
+    ${r.baseline?`<details><summary>Sem a engine (documento em texto corrido)</summary><pre>${esc(r.baseline)}</pre></details>`:""}
+  </div>`).join("")}`;
+}
+async function loadFromQuery(){
+  const p = new URLSearchParams(location.search).get("result");
+  if(!p) return;
+  try{ render(await (await fetch(p)).json()); }catch(e){ $("#out").innerHTML = `<p class="warn">Não consegui abrir ${esc(p)}: ${esc(e.message)}</p>`; }
+}
+$("#file").addEventListener("change", async e => {
+  const f = e.target.files[0]; if(!f) return;
+  try{ render(JSON.parse(await f.text())); }catch(err){ $("#out").innerHTML = `<p class="warn">Arquivo inválido: ${esc(err.message)}</p>`; }
+});
+async function detectServer(){
+  try{ const r = await fetch("/api/example"); if(r.ok) $("#run").hidden = false; }catch(e){}
+}
+$("#go").addEventListener("click", async () => {
+  const btn = $("#go"); btn.disabled = true; $("#status").textContent = "rodando... (cerca de 1 minuto por pergunta)";
+  try{
+    const r = await fetch("/api/run",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({api_key:$("#key").value,model:$("#model").value,base_url:$("#base").value,language:$("#lang").value})});
+    const data = await r.json();
+    if(!r.ok) throw new Error(data.detail || r.status);
+    render(data);
+    const blob = new Blob([JSON.stringify(data,null,2)],{type:"application/json"});
+    $("#status").innerHTML = `pronto · <a download="resultado.json" href="${URL.createObjectURL(blob)}">baixar resultado.json</a>`;
+  }catch(e){ $("#status").innerHTML = `<span class="warn">${esc(e.message)}</span>`; }
+  finally{ btn.disabled = false; $("#key").value = ""; }
+});
+detectServer(); loadFromQuery();
+</script>
+</body>
+</html>

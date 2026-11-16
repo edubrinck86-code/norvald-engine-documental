@@ -1,0 +1,7 @@
+[
+  {"question": "Quem tem o ônus de provar que o consentimento foi obtido de forma regular?", "expected": "O controlador (art. 8º, § 2º).", "answerable": true},
+  {"question": "Dados tornados manifestamente públicos pelo titular exigem consentimento para serem tratados?", "expected": "Não: o consentimento é dispensado, resguardados os direitos do titular e os princípios da Lei (art. 7º, § 4º).", "answerable": true},
+  {"question": "Uma autorização genérica de tratamento de dados, sem finalidade determinada, é válida?", "expected": "Não: autorizações genéricas são nulas (art. 8º, § 4º).", "answerable": true},
+  {"question": "Qual é o valor máximo da multa que a autoridade pode aplicar por infração à LGPD?", "expected": "O trecho não traz a resposta: as sanções estão no art. 52, fora deste documento. O esperado é declarar a lacuna.", "answerable": false},
+  {"question": "Em quantos dias o controlador deve responder a um pedido de acesso do titular?", "expected": "O trecho não traz a resposta: os prazos de atendimento estão no art. 19, fora deste documento. O esperado é declarar a lacuna.", "answerable": false}
+]

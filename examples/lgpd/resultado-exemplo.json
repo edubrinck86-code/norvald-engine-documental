@@ -1,0 +1,1031 @@
+{
+  "engine_version": "0.1.0",
+  "generated_at": "2026-11-16T14:52:30+00:00",
+  "model": "openai/gpt-4o-mini",
+  "temperature": 0.7,
+  "document": "documento.md",
+  "evidence": [
+    {
+      "id": "evidence-documento-0",
+      "type": "evidence",
+      "content": "Art. 1º\nEsta Lei dispõe sobre o tratamento de dados pessoais, inclusive nos meios digitais, por pessoa natural ou por pessoa jurídica de direito público ou privado, com o objetivo de proteger os direitos fundamentais de liberdade e de privacidade e o livre desenvolvimento da personalidade da pessoa natural.\n\nParágrafo único. As normas gerais contidas nesta Lei são de interesse nacional e devem ser observadas pela União, Estados, Distrito Federal e Municípios.",
+      "document_id": "documento",
+      "section_id": "0",
+      "source_type": "document",
+      "source_id": "documento",
+      "source_location": "Art. 1º",
+      "author_id": null,
+      "round_number": null,
+      "status": "active",
+      "confidence": null,
+      "metadata": {}
+    },
+    {
+      "id": "evidence-documento-1",
+      "type": "evidence",
+      "content": "Art. 5º (incisos I, II, V, VI, VII, X e XII)\nPara os fins desta Lei, considera-se:\n\nI - dado pessoal: informação relacionada a pessoa natural identificada ou identificável;\n\nII - dado pessoal sensível: dado pessoal sobre origem racial ou étnica, convicção religiosa, opinião política, filiação a sindicato ou a organização de caráter religioso, filosófico ou político, dado referente à saúde ou à vida sexual, dado genético ou biométrico, quando vinculado a uma pessoa natural;\n\nV - titular: pessoa natural a quem se referem os dados pessoais que são objeto de tratamento;\n\nVI - controlador: pessoa natural ou jurídica, de direito público ou privado, a quem competem as decisões referentes ao tratamento de dados pessoais;\n\nVII - operador: pessoa natural ou jurídica, de direito público ou privado, que realiza o tratamento de dados pessoais em nome do controlador;\n\nX - tratamento: toda operação realizada com dados pessoais, como as que se referem a coleta, produção, recepção, classificação, utilização, acesso, reprodução, transmissão, distribuição, processamento, arquivamento, armazenamento, eliminação, avaliação ou controle da informação, modificação, comunicação, transferência, difusão ou extração;\n\nXII - consentimento: manifestação livre, informada e inequívoca pela qual o titular concorda com o tratamento de seus dados pessoais para uma finalidade determinada;",
+      "document_id": "documento",
+      "section_id": "1",
+      "source_type": "document",
+      "source_id": "documento",
+      "source_location": "Art. 5º (incisos I, II, V, VI, VII, X e XII)",
+      "author_id": null,
+      "round_number": null,
+      "status": "active",
+      "confidence": null,
+      "metadata": {}
+    },
+    {
+      "id": "evidence-documento-2",
+      "type": "evidence",
+      "content": "Art. 6º\nAs atividades de tratamento de dados pessoais deverão observar a boa-fé e os seguintes princípios:\n\nI - finalidade: realização do tratamento para propósitos legítimos, específicos, explícitos e informados ao titular, sem possibilidade de tratamento posterior de forma incompatível com essas finalidades;\n\nII - adequação: compatibilidade do tratamento com as finalidades informadas ao titular, de acordo com o contexto do tratamento;\n\nIII - necessidade: limitação do tratamento ao mínimo necessário para a realização de suas finalidades, com abrangência dos dados pertinentes, proporcionais e não excessivos em relação às finalidades do tratamento de dados;\n\nIV - livre acesso: garantia, aos titulares, de consulta facilitada e gratuita sobre a forma e a duração do tratamento, bem como sobre a integralidade de seus dados pessoais;\n\nV - qualidade dos dados: garantia, aos titulares, de exatidão, clareza, relevância e atualização dos dados, de acordo com a necessidade e para o cumprimento da finalidade de seu tratamento;\n\nVI - transparência: garantia, aos titulares, de informações claras, precisas e facilmente acessíveis sobre a realização do tratamento e os respectivos agentes de tratamento, observados os segredos comercial e industrial;\n\nVII - segurança: utilização de medidas técnicas e administrativas aptas a proteger os dados pessoais de acessos não autorizados e de situações acidentais ou ilícitas de destruição, perda, alteração, comunicação ou difusão;\n\nVIII - prevenção: adoção de medidas para prevenir a ocorrência de danos em virtude do tratamento de dados pessoais;\n\nIX - não discriminação: impossibilidade de realização do tratamento para fins discriminatórios ilícitos ou abusivos;\n\nX - responsabilização e prestação de contas: demonstração, pelo agente, da adoção de medidas eficazes e capazes de comprovar a observância e o cumprimento das normas de proteção de dados pessoais e, inclusive, da eficácia dessas medidas.",
+      "document_id": "documento",
+      "section_id": "2",
+      "source_type": "document",
+      "source_id": "documento",
+      "source_location": "Art. 6º",
+      "author_id": null,
+      "round_number": null,
+      "status": "active",
+      "confidence": null,
+      "metadata": {}
+    },
+    {
+      "id": "evidence-documento-3",
+      "type": "evidence",
+      "content": "Art. 7º\nO tratamento de dados pessoais somente poderá ser realizado nas seguintes hipóteses:\n\nI - mediante o fornecimento de consentimento pelo titular;\n\nII - para o cumprimento de obrigação legal ou regulatória pelo controlador;\n\nIII - pela administração pública, para o tratamento e uso compartilhado de dados necessários à execução de políticas públicas previstas em leis e regulamentos ou respaldadas em contratos, convênios ou instrumentos congêneres, observadas as disposições do Capítulo IV desta Lei;\n\nIV - para a realização de estudos por órgão de pesquisa, garantida, sempre que possível, a anonimização dos dados pessoais;\n\nV - quando necessário para a execução de contrato ou de procedimentos preliminares relacionados a contrato do qual seja parte o titular, a pedido do titular dos dados;\n\nVI - para o exercício regular de direitos em processo judicial, administrativo ou arbitral, esse último nos termos da Lei nº 9.307, de 23 de setembro de 1996 (Lei de Arbitragem);\n\nVII - para a proteção da vida ou da incolumidade física do titular ou de terceiro;\n\nVIII - para a tutela da saúde, exclusivamente, em procedimento realizado por profissionais de saúde, serviços de saúde ou autoridade sanitária;\n\nIX - quando necessário para atender aos interesses legítimos do controlador ou de terceiro, exceto no caso de prevalecerem direitos e liberdades fundamentais do titular que exijam a proteção dos dados pessoais; ou\n\nX - para a proteção do crédito, inclusive quanto ao disposto na legislação pertinente.\n\n§ 3º O tratamento de dados pessoais cujo acesso é público deve considerar a finalidade, a boa-fé e o interesse público que justificaram sua disponibilização.\n\n§ 4º É dispensada a exigência do consentimento previsto no caput deste artigo para os dados tornados manifestamente públicos pelo titular, resguardados os direitos do titular e os princípios previstos nesta Lei.\n\n§ 5º O controlador que obteve o consentimento referido no inciso I do caput deste artigo que necessitar comunicar ou compartilhar dados pessoais com outros controladores deverá obter consentimento específico do titular para esse fim, ressalvadas as hipóteses de dispensa do consentimento previstas nesta Lei.\n\n§ 6º A eventual dispensa da exigência do consentimento não desobriga os agentes de tratamento das demais obrigações previstas nesta Lei, especialmente da observância dos princípios gerais e da garantia dos direitos do titular.\n\n§ 7º O tratamento posterior dos dados pessoais a que se referem os §§ 3º e 4º deste artigo poderá ser realizado para novas finalidades, desde que observados os propósitos legítimos e específicos para o novo tratamento e a preservação dos direitos do titular, assim como os fundamentos e os princípios previstos nesta Lei.",
+      "document_id": "documento",
+      "section_id": "3",
+      "source_type": "document",
+      "source_id": "documento",
+      "source_location": "Art. 7º",
+      "author_id": null,
+      "round_number": null,
+      "status": "active",
+      "confidence": null,
+      "metadata": {}
+    },
+    {
+      "id": "evidence-documento-4",
+      "type": "evidence",
+      "content": "Art. 8º\nO consentimento previsto no inciso I do art. 7º desta Lei deverá ser fornecido por escrito ou por outro meio que demonstre a manifestação de vontade do titular.\n\n§ 1º Caso o consentimento seja fornecido por escrito, esse deverá constar de cláusula destacada das demais cláusulas contratuais.\n\n§ 2º Cabe ao controlador o ônus da prova de que o consentimento foi obtido em conformidade com o disposto nesta Lei.\n\n§ 3º É vedado o tratamento de dados pessoais mediante vício de consentimento.\n\n§ 4º O consentimento deverá referir-se a finalidades determinadas, e as autorizações genéricas para o tratamento de dados pessoais serão nulas.\n\n§ 5º O consentimento pode ser revogado a qualquer momento mediante manifestação expressa do titular, por procedimento gratuito e facilitado, ratificados os tratamentos realizados sob amparo do consentimento anteriormente manifestado enquanto não houver requerimento de eliminação, nos termos do inciso VI do caput do art. 18 desta Lei.\n\n§ 6º Em caso de alteração de informação referida nos incisos I, II, III ou V do art. 9º desta Lei, o controlador deverá informar ao titular, com destaque de forma específica do teor das alterações, podendo o titular, nos casos em que o seu consentimento é exigido, revogá-lo caso discorde da alteração.",
+      "document_id": "documento",
+      "section_id": "4",
+      "source_type": "document",
+      "source_id": "documento",
+      "source_location": "Art. 8º",
+      "author_id": null,
+      "round_number": null,
+      "status": "active",
+      "confidence": null,
+      "metadata": {}
+    }
+  ],
+  "results": [
+    {
+      "question": "Quem tem o ônus de provar que o consentimento foi obtido de forma regular?",
+      "expected": "O controlador (art. 8º, § 2º).",
+      "model": "openai/gpt-4o-mini",
+      "answer": {
+        "prose": "O controlador tem o ônus de provar que o consentimento foi obtido em conformidade com o disposto na Lei, conforme estabelecido no § 2º do Art. 8º.",
+        "declared": [
+          {
+            "id": "0302260c-671a-44dc-ab61-43a693fa9091",
+            "type": "claim",
+            "content": "O controlador tem o ônus de provar que o consentimento foi obtido de forma regular.",
+            "document_id": null,
+            "section_id": null,
+            "source_type": "model",
+            "source_id": "openai/gpt-4o-mini",
+            "source_location": null,
+            "author_id": "openai/gpt-4o-mini",
+            "round_number": 1,
+            "status": "active",
+            "confidence": "alta",
+            "metadata": {
+              "contribution_id": "8a4534d2-0405-4bee-b257-01b0d2cb2342",
+              "provenance": [
+                "8a4534d2-0405-4bee-b257-01b0d2cb2342",
+                "2cfed75b-f7e5-4548-8118-cd3da764dfe6"
+              ]
+            }
+          }
+        ],
+        "relations": [
+          {
+            "source_id": "evidence-documento-4",
+            "relation_type": "supports",
+            "target_id": "0302260c-671a-44dc-ab61-43a693fa9091",
+            "author_id": "openai/gpt-4o-mini",
+            "round_number": 1
+          }
+        ],
+        "rejected": [],
+        "block_found": true
+      },
+      "review": {
+        "prose": "O controlador tem o ônus de provar que o consentimento foi obtido de forma regular. Essa afirmação é sustentada pelo Art. 8º, § 2º da lei, que estabelece que cabe ao controlador o ônus da prova de que o consentimento foi obtido em conformidade com o disposto na Lei.",
+        "declared": [
+          {
+            "id": "7639ddcf-845d-4c4f-a135-3b76f12a8930",
+            "type": "claim",
+            "content": "O controlador tem o ônus de provar que o consentimento foi obtido de forma regular.",
+            "document_id": null,
+            "section_id": null,
+            "source_type": "model",
+            "source_id": "openai/gpt-4o-mini",
+            "source_location": null,
+            "author_id": "openai/gpt-4o-mini",
+            "round_number": 2,
+            "status": "active",
+            "confidence": "alta",
+            "metadata": {
+              "contribution_id": "2cfed75b-f7e5-4548-8118-cd3da764dfe6",
+              "provenance": [
+                "2cfed75b-f7e5-4548-8118-cd3da764dfe6"
+              ]
+            }
+          }
+        ],
+        "relations": [
+          {
+            "source_id": "evidence-documento-4",
+            "relation_type": "supports",
+            "target_id": "7639ddcf-845d-4c4f-a135-3b76f12a8930",
+            "author_id": "openai/gpt-4o-mini",
+            "round_number": 2
+          }
+        ],
+        "rejected": [],
+        "block_found": true
+      },
+      "baseline": "Cabe ao controlador o ônus da prova de que o consentimento foi obtido em conformidade com o disposto na Lei nº 13.709/2018 (LGPD).",
+      "gaps": [],
+      "open_questions": [],
+      "working_context": {
+        "question": "Quem tem o ônus de provar que o consentimento foi obtido de forma regular?",
+        "items": [
+          {
+            "id": "evidence-documento-0",
+            "type": "evidence",
+            "content": "Art. 1º\nEsta Lei dispõe sobre o tratamento de dados pessoais, inclusive nos meios digitais, por pessoa natural ou por pessoa jurídica de direito público ou privado, com o objetivo de proteger os direitos fundamentais de liberdade e de privacidade e o livre desenvolvimento da personalidade da pessoa natural.\n\nParágrafo único. As normas gerais contidas nesta Lei são de interesse nacional e devem ser observadas pela União, Estados, Distrito Federal e Municípios.",
+            "document_id": "documento",
+            "section_id": "0",
+            "source_type": "document",
+            "source_id": "documento",
+            "source_location": "Art. 1º",
+            "author_id": null,
+            "round_number": null,
+            "status": "active",
+            "confidence": null,
+            "metadata": {}
+          },
+          {
+            "id": "evidence-documento-1",
+            "type": "evidence",
+            "content": "Art. 5º (incisos I, II, V, VI, VII, X e XII)\nPara os fins desta Lei, considera-se:\n\nI - dado pessoal: informação relacionada a pessoa natural identificada ou identificável;\n\nII - dado pessoal sensível: dado pessoal sobre origem racial ou étnica, convicção religiosa, opinião política, filiação a sindicato ou a organização de caráter religioso, filosófico ou político, dado referente à saúde ou à vida sexual, dado genético ou biométrico, quando vinculado a uma pessoa natural;\n\nV - titular: pessoa natural a quem se referem os dados pessoais que são objeto de tratamento;\n\nVI - controlador: pessoa natural ou jurídica, de direito público ou privado, a quem competem as decisões referentes ao tratamento de dados pessoais;\n\nVII - operador: pessoa natural ou jurídica, de direito público ou privado, que realiza o tratamento de dados pessoais em nome do controlador;\n\nX - tratamento: toda operação realizada com dados pessoais, como as que se referem a coleta, produção, recepção, classificação, utilização, acesso, reprodução, transmissão, distribuição, processamento, arquivamento, armazenamento, eliminação, avaliação ou controle da informação, modificação, comunicação, transferência, difusão ou extração;\n\nXII - consentimento: manifestação livre, informada e inequívoca pela qual o titular concorda com o tratamento de seus dados pessoais para uma finalidade determinada;",
+            "document_id": "documento",
+            "section_id": "1",
+            "source_type": "document",
+            "source_id": "documento",
+            "source_location": "Art. 5º (incisos I, II, V, VI, VII, X e XII)",
+            "author_id": null,
+            "round_number": null,
+            "status": "active",
+            "confidence": null,
+            "metadata": {}
+          },
+          {
+            "id": "evidence-documento-2",
+            "type": "evidence",
+            "content": "Art. 6º\nAs atividades de tratamento de dados pessoais deverão observar a boa-fé e os seguintes princípios:\n\nI - finalidade: realização do tratamento para propósitos legítimos, específicos, explícitos e informados ao titular, sem possibilidade de tratamento posterior de forma incompatível com essas finalidades;\n\nII - adequação: compatibilidade do tratamento com as finalidades informadas ao titular, de acordo com o contexto do tratamento;\n\nIII - necessidade: limitação do tratamento ao mínimo necessário para a realização de suas finalidades, com abrangência dos dados pertinentes, proporcionais e não excessivos em relação às finalidades do tratamento de dados;\n\nIV - livre acesso: garantia, aos titulares, de consulta facilitada e gratuita sobre a forma e a duração do tratamento, bem como sobre a integralidade de seus dados pessoais;\n\nV - qualidade dos dados: garantia, aos titulares, de exatidão, clareza, relevância e atualização dos dados, de acordo com a necessidade e para o cumprimento da finalidade de seu tratamento;\n\nVI - transparência: garantia, aos titulares, de informações claras, precisas e facilmente acessíveis sobre a realização do tratamento e os respectivos agentes de tratamento, observados os segredos comercial e industrial;\n\nVII - segurança: utilização de medidas técnicas e administrativas aptas a proteger os dados pessoais de acessos não autorizados e de situações acidentais ou ilícitas de destruição, perda, alteração, comunicação ou difusão;\n\nVIII - prevenção: adoção de medidas para prevenir a ocorrência de danos em virtude do tratamento de dados pessoais;\n\nIX - não discriminação: impossibilidade de realização do tratamento para fins discriminatórios ilícitos ou abusivos;\n\nX - responsabilização e prestação de contas: demonstração, pelo agente, da adoção de medidas eficazes e capazes de comprovar a observância e o cumprimento das normas de proteção de dados pessoais e, inclusive, da eficácia dessas medidas.",
+            "document_id": "documento",
+            "section_id": "2",
+            "source_type": "document",
+            "source_id": "documento",
+            "source_location": "Art. 6º",
+            "author_id": null,
+            "round_number": null,
+            "status": "active",
+            "confidence": null,
+            "metadata": {}
+          },
+          {
+            "id": "evidence-documento-3",
+            "type": "evidence",
+            "content": "Art. 7º\nO tratamento de dados pessoais somente poderá ser realizado nas seguintes hipóteses:\n\nI - mediante o fornecimento de consentimento pelo titular;\n\nII - para o cumprimento de obrigação legal ou regulatória pelo controlador;\n\nIII - pela administração pública, para o tratamento e uso compartilhado de dados necessários à execução de políticas públicas previstas em leis e regulamentos ou respaldadas em contratos, convênios ou instrumentos congêneres, observadas as disposições do Capítulo IV desta Lei;\n\nIV - para a realização de estudos por órgão de pesquisa, garantida, sempre que possível, a anonimização dos dados pessoais;\n\nV - quando necessário para a execução de contrato ou de procedimentos preliminares relacionados a contrato do qual seja parte o titular, a pedido do titular dos dados;\n\nVI - para o exercício regular de direitos em processo judicial, administrativo ou arbitral, esse último nos termos da Lei nº 9.307, de 23 de setembro de 1996 (Lei de Arbitragem);\n\nVII - para a proteção da vida ou da incolumidade física do titular ou de terceiro;\n\nVIII - para a tutela da saúde, exclusivamente, em procedimento realizado por profissionais de saúde, serviços de saúde ou autoridade sanitária;\n\nIX - quando necessário para atender aos interesses legítimos do controlador ou de terceiro, exceto no caso de prevalecerem direitos e liberdades fundamentais do titular que exijam a proteção dos dados pessoais; ou\n\nX - para a proteção do crédito, inclusive quanto ao disposto na legislação pertinente.\n\n§ 3º O tratamento de dados pessoais cujo acesso é público deve considerar a finalidade, a boa-fé e o interesse público que justificaram sua disponibilização.\n\n§ 4º É dispensada a exigência do consentimento previsto no caput deste artigo para os dados tornados manifestamente públicos pelo titular, resguardados os direitos do titular e os princípios previstos nesta Lei.\n\n§ 5º O controlador que obteve o consentimento referido no inciso I do caput deste artigo que necessitar comunicar ou compartilhar dados pessoais com outros controladores deverá obter consentimento específico do titular para esse fim, ressalvadas as hipóteses de dispensa do consentimento previstas nesta Lei.\n\n§ 6º A eventual dispensa da exigência do consentimento não desobriga os agentes de tratamento das demais obrigações previstas nesta Lei, especialmente da observância dos princípios gerais e da garantia dos direitos do titular.\n\n§ 7º O tratamento posterior dos dados pessoais a que se referem os §§ 3º e 4º deste artigo poderá ser realizado para novas finalidades, desde que observados os propósitos legítimos e específicos para o novo tratamento e a preservação dos direitos do titular, assim como os fundamentos e os princípios previstos nesta Lei.",
+            "document_id": "documento",
+            "section_id": "3",
+            "source_type": "document",
+            "source_id": "documento",
+            "source_location": "Art. 7º",
+            "author_id": null,
+            "round_number": null,
+            "status": "active",
+            "confidence": null,
+            "metadata": {}
+          },
+          {
+            "id": "evidence-documento-4",
+            "type": "evidence",
+            "content": "Art. 8º\nO consentimento previsto no inciso I do art. 7º desta Lei deverá ser fornecido por escrito ou por outro meio que demonstre a manifestação de vontade do titular.\n\n§ 1º Caso o consentimento seja fornecido por escrito, esse deverá constar de cláusula destacada das demais cláusulas contratuais.\n\n§ 2º Cabe ao controlador o ônus da prova de que o consentimento foi obtido em conformidade com o disposto nesta Lei.\n\n§ 3º É vedado o tratamento de dados pessoais mediante vício de consentimento.\n\n§ 4º O consentimento deverá referir-se a finalidades determinadas, e as autorizações genéricas para o tratamento de dados pessoais serão nulas.\n\n§ 5º O consentimento pode ser revogado a qualquer momento mediante manifestação expressa do titular, por procedimento gratuito e facilitado, ratificados os tratamentos realizados sob amparo do consentimento anteriormente manifestado enquanto não houver requerimento de eliminação, nos termos do inciso VI do caput do art. 18 desta Lei.\n\n§ 6º Em caso de alteração de informação referida nos incisos I, II, III ou V do art. 9º desta Lei, o controlador deverá informar ao titular, com destaque de forma específica do teor das alterações, podendo o titular, nos casos em que o seu consentimento é exigido, revogá-lo caso discorde da alteração.",
+            "document_id": "documento",
+            "section_id": "4",
+            "source_type": "document",
+            "source_id": "documento",
+            "source_location": "Art. 8º",
+            "author_id": null,
+            "round_number": null,
+            "status": "active",
+            "confidence": null,
+            "metadata": {}
+          },
+          {
+            "id": "0302260c-671a-44dc-ab61-43a693fa9091",
+            "type": "claim",
+            "content": "O controlador tem o ônus de provar que o consentimento foi obtido de forma regular.",
+            "document_id": null,
+            "section_id": null,
+            "source_type": "model",
+            "source_id": "openai/gpt-4o-mini",
+            "source_location": null,
+            "author_id": "openai/gpt-4o-mini",
+            "round_number": 1,
+            "status": "active",
+            "confidence": "alta",
+            "metadata": {
+              "contribution_id": "8a4534d2-0405-4bee-b257-01b0d2cb2342",
+              "provenance": [
+                "8a4534d2-0405-4bee-b257-01b0d2cb2342",
+                "2cfed75b-f7e5-4548-8118-cd3da764dfe6"
+              ]
+            }
+          }
+        ],
+        "relations": [
+          {
+            "source_id": "evidence-documento-4",
+            "relation_type": "supports",
+            "target_id": "0302260c-671a-44dc-ab61-43a693fa9091",
+            "author_id": "openai/gpt-4o-mini",
+            "round_number": 1
+          }
+        ],
+        "metadata": {}
+      },
+      "answerable": true
+    },
+    {
+      "question": "Dados tornados manifestamente públicos pelo titular exigem consentimento para serem tratados?",
+      "expected": "Não: o consentimento é dispensado, resguardados os direitos do titular e os princípios da Lei (art. 7º, § 4º).",
+      "model": "openai/gpt-4o-mini",
+      "answer": {
+        "prose": "De acordo com o Art. 7º, § 4º da legislação mencionada, é dispensada a exigência do consentimento para o tratamento de dados tornados manifestamente públicos pelo titular, desde que sejam respeitados os direitos do titular e os princípios previstos na Lei. Portanto, dados tornados manifestamente públicos não exigem consentimento para serem tratados.",
+        "declared": [
+          {
+            "id": "40367561-7d45-4fef-9865-5b2b28cda4a3",
+            "type": "claim",
+            "content": "Dados tornados manifestamente públicos pelo titular não exigem consentimento para serem tratados, conforme o Art. 7º, § 4º da Lei.",
+            "document_id": null,
+            "section_id": null,
+            "source_type": "model",
+            "source_id": "openai/gpt-4o-mini",
+            "source_location": null,
+            "author_id": "openai/gpt-4o-mini",
+            "round_number": 1,
+            "status": "active",
+            "confidence": "alta",
+            "metadata": {
+              "contribution_id": "db74c06f-7b50-407f-830b-1481f057a559",
+              "provenance": [
+                "db74c06f-7b50-407f-830b-1481f057a559",
+                "721b19f6-e00d-4f1c-b49d-275d487d16ec"
+              ]
+            }
+          }
+        ],
+        "relations": [
+          {
+            "source_id": "evidence-documento-3",
+            "relation_type": "supports",
+            "target_id": "40367561-7d45-4fef-9865-5b2b28cda4a3",
+            "author_id": "openai/gpt-4o-mini",
+            "round_number": 1
+          }
+        ],
+        "rejected": [],
+        "block_found": true
+      },
+      "review": {
+        "prose": "A afirmação inicial de que \"dados tornados manifestamente públicos pelo titular não exigem consentimento para serem tratados\" está correta de acordo com o Art. 7º, § 4º da Lei, que estabelece que o tratamento desses dados é dispensado da exigência de consentimento, desde que respeitados os direitos do titular e os princípios previstos na Lei. Portanto, a resposta à pergunta \"Dados tornados manifestamente públicos pelo titular exigem consentimento para serem tratados?\" é não, não exigem.\n\nAs relações que suportam essa afirmação foram mantidas, pois são válidas e respeitam o que está disposto no documento.",
+        "declared": [
+          {
+            "id": "089ab5f5-c0bb-4989-9006-c125509f474f",
+            "type": "claim",
+            "content": "Dados tornados manifestamente públicos pelo titular não exigem consentimento para serem tratados, conforme o Art. 7º, § 4º da Lei.",
+            "document_id": null,
+            "section_id": null,
+            "source_type": "model",
+            "source_id": "openai/gpt-4o-mini",
+            "source_location": null,
+            "author_id": "openai/gpt-4o-mini",
+            "round_number": 2,
+            "status": "active",
+            "confidence": "alta",
+            "metadata": {
+              "contribution_id": "721b19f6-e00d-4f1c-b49d-275d487d16ec",
+              "provenance": [
+                "721b19f6-e00d-4f1c-b49d-275d487d16ec"
+              ]
+            }
+          }
+        ],
+        "relations": [
+          {
+            "source_id": "evidence-documento-3",
+            "relation_type": "supports",
+            "target_id": "089ab5f5-c0bb-4989-9006-c125509f474f",
+            "author_id": "openai/gpt-4o-mini",
+            "round_number": 2
+          }
+        ],
+        "rejected": [],
+        "block_found": true
+      },
+      "baseline": "Não, os dados tornados manifestamente públicos pelo titular estão dispensados da exigência de consentimento para o tratamento, conforme o § 4º do Art. 7º da Lei nº 13.709/2018 (LGPD). No entanto, deve-se resguardar os direitos do titular e os princípios previstos na lei.",
+      "gaps": [],
+      "open_questions": [],
+      "working_context": {
+        "question": "Dados tornados manifestamente públicos pelo titular exigem consentimento para serem tratados?",
+        "items": [
+          {
+            "id": "evidence-documento-0",
+            "type": "evidence",
+            "content": "Art. 1º\nEsta Lei dispõe sobre o tratamento de dados pessoais, inclusive nos meios digitais, por pessoa natural ou por pessoa jurídica de direito público ou privado, com o objetivo de proteger os direitos fundamentais de liberdade e de privacidade e o livre desenvolvimento da personalidade da pessoa natural.\n\nParágrafo único. As normas gerais contidas nesta Lei são de interesse nacional e devem ser observadas pela União, Estados, Distrito Federal e Municípios.",
+            "document_id": "documento",
+            "section_id": "0",
+            "source_type": "document",
+            "source_id": "documento",
+            "source_location": "Art. 1º",
+            "author_id": null,
+            "round_number": null,
+            "status": "active",
+            "confidence": null,
+            "metadata": {}
+          },
+          {
+            "id": "evidence-documento-1",
+            "type": "evidence",
+            "content": "Art. 5º (incisos I, II, V, VI, VII, X e XII)\nPara os fins desta Lei, considera-se:\n\nI - dado pessoal: informação relacionada a pessoa natural identificada ou identificável;\n\nII - dado pessoal sensível: dado pessoal sobre origem racial ou étnica, convicção religiosa, opinião política, filiação a sindicato ou a organização de caráter religioso, filosófico ou político, dado referente à saúde ou à vida sexual, dado genético ou biométrico, quando vinculado a uma pessoa natural;\n\nV - titular: pessoa natural a quem se referem os dados pessoais que são objeto de tratamento;\n\nVI - controlador: pessoa natural ou jurídica, de direito público ou privado, a quem competem as decisões referentes ao tratamento de dados pessoais;\n\nVII - operador: pessoa natural ou jurídica, de direito público ou privado, que realiza o tratamento de dados pessoais em nome do controlador;\n\nX - tratamento: toda operação realizada com dados pessoais, como as que se referem a coleta, produção, recepção, classificação, utilização, acesso, reprodução, transmissão, distribuição, processamento, arquivamento, armazenamento, eliminação, avaliação ou controle da informação, modificação, comunicação, transferência, difusão ou extração;\n\nXII - consentimento: manifestação livre, informada e inequívoca pela qual o titular concorda com o tratamento de seus dados pessoais para uma finalidade determinada;",
+            "document_id": "documento",
+            "section_id": "1",
+            "source_type": "document",
+            "source_id": "documento",
+            "source_location": "Art. 5º (incisos I, II, V, VI, VII, X e XII)",
+            "author_id": null,
+            "round_number": null,
+            "status": "active",
+            "confidence": null,
+            "metadata": {}
+          },
+          {
+            "id": "evidence-documento-2",
+            "type": "evidence",
+            "content": "Art. 6º\nAs atividades de tratamento de dados pessoais deverão observar a boa-fé e os seguintes princípios:\n\nI - finalidade: realização do tratamento para propósitos legítimos, específicos, explícitos e informados ao titular, sem possibilidade de tratamento posterior de forma incompatível com essas finalidades;\n\nII - adequação: compatibilidade do tratamento com as finalidades informadas ao titular, de acordo com o contexto do tratamento;\n\nIII - necessidade: limitação do tratamento ao mínimo necessário para a realização de suas finalidades, com abrangência dos dados pertinentes, proporcionais e não excessivos em relação às finalidades do tratamento de dados;\n\nIV - livre acesso: garantia, aos titulares, de consulta facilitada e gratuita sobre a forma e a duração do tratamento, bem como sobre a integralidade de seus dados pessoais;\n\nV - qualidade dos dados: garantia, aos titulares, de exatidão, clareza, relevância e atualização dos dados, de acordo com a necessidade e para o cumprimento da finalidade de seu tratamento;\n\nVI - transparência: garantia, aos titulares, de informações claras, precisas e facilmente acessíveis sobre a realização do tratamento e os respectivos agentes de tratamento, observados os segredos comercial e industrial;\n\nVII - segurança: utilização de medidas técnicas e administrativas aptas a proteger os dados pessoais de acessos não autorizados e de situações acidentais ou ilícitas de destruição, perda, alteração, comunicação ou difusão;\n\nVIII - prevenção: adoção de medidas para prevenir a ocorrência de danos em virtude do tratamento de dados pessoais;\n\nIX - não discriminação: impossibilidade de realização do tratamento para fins discriminatórios ilícitos ou abusivos;\n\nX - responsabilização e prestação de contas: demonstração, pelo agente, da adoção de medidas eficazes e capazes de comprovar a observância e o cumprimento das normas de proteção de dados pessoais e, inclusive, da eficácia dessas medidas.",
+            "document_id": "documento",
+            "section_id": "2",
+            "source_type": "document",
+            "source_id": "documento",
+            "source_location": "Art. 6º",
+            "author_id": null,
+            "round_number": null,
+            "status": "active",
+            "confidence": null,
+            "metadata": {}
+          },
+          {
+            "id": "evidence-documento-3",
+            "type": "evidence",
+            "content": "Art. 7º\nO tratamento de dados pessoais somente poderá ser realizado nas seguintes hipóteses:\n\nI - mediante o fornecimento de consentimento pelo titular;\n\nII - para o cumprimento de obrigação legal ou regulatória pelo controlador;\n\nIII - pela administração pública, para o tratamento e uso compartilhado de dados necessários à execução de políticas públicas previstas em leis e regulamentos ou respaldadas em contratos, convênios ou instrumentos congêneres, observadas as disposições do Capítulo IV desta Lei;\n\nIV - para a realização de estudos por órgão de pesquisa, garantida, sempre que possível, a anonimização dos dados pessoais;\n\nV - quando necessário para a execução de contrato ou de procedimentos preliminares relacionados a contrato do qual seja parte o titular, a pedido do titular dos dados;\n\nVI - para o exercício regular de direitos em processo judicial, administrativo ou arbitral, esse último nos termos da Lei nº 9.307, de 23 de setembro de 1996 (Lei de Arbitragem);\n\nVII - para a proteção da vida ou da incolumidade física do titular ou de terceiro;\n\nVIII - para a tutela da saúde, exclusivamente, em procedimento realizado por profissionais de saúde, serviços de saúde ou autoridade sanitária;\n\nIX - quando necessário para atender aos interesses legítimos do controlador ou de terceiro, exceto no caso de prevalecerem direitos e liberdades fundamentais do titular que exijam a proteção dos dados pessoais; ou\n\nX - para a proteção do crédito, inclusive quanto ao disposto na legislação pertinente.\n\n§ 3º O tratamento de dados pessoais cujo acesso é público deve considerar a finalidade, a boa-fé e o interesse público que justificaram sua disponibilização.\n\n§ 4º É dispensada a exigência do consentimento previsto no caput deste artigo para os dados tornados manifestamente públicos pelo titular, resguardados os direitos do titular e os princípios previstos nesta Lei.\n\n§ 5º O controlador que obteve o consentimento referido no inciso I do caput deste artigo que necessitar comunicar ou compartilhar dados pessoais com outros controladores deverá obter consentimento específico do titular para esse fim, ressalvadas as hipóteses de dispensa do consentimento previstas nesta Lei.\n\n§ 6º A eventual dispensa da exigência do consentimento não desobriga os agentes de tratamento das demais obrigações previstas nesta Lei, especialmente da observância dos princípios gerais e da garantia dos direitos do titular.\n\n§ 7º O tratamento posterior dos dados pessoais a que se referem os §§ 3º e 4º deste artigo poderá ser realizado para novas finalidades, desde que observados os propósitos legítimos e específicos para o novo tratamento e a preservação dos direitos do titular, assim como os fundamentos e os princípios previstos nesta Lei.",
+            "document_id": "documento",
+            "section_id": "3",
+            "source_type": "document",
+            "source_id": "documento",
+            "source_location": "Art. 7º",
+            "author_id": null,
+            "round_number": null,
+            "status": "active",
+            "confidence": null,
+            "metadata": {}
+          },
+          {
+            "id": "evidence-documento-4",
+            "type": "evidence",
+            "content": "Art. 8º\nO consentimento previsto no inciso I do art. 7º desta Lei deverá ser fornecido por escrito ou por outro meio que demonstre a manifestação de vontade do titular.\n\n§ 1º Caso o consentimento seja fornecido por escrito, esse deverá constar de cláusula destacada das demais cláusulas contratuais.\n\n§ 2º Cabe ao controlador o ônus da prova de que o consentimento foi obtido em conformidade com o disposto nesta Lei.\n\n§ 3º É vedado o tratamento de dados pessoais mediante vício de consentimento.\n\n§ 4º O consentimento deverá referir-se a finalidades determinadas, e as autorizações genéricas para o tratamento de dados pessoais serão nulas.\n\n§ 5º O consentimento pode ser revogado a qualquer momento mediante manifestação expressa do titular, por procedimento gratuito e facilitado, ratificados os tratamentos realizados sob amparo do consentimento anteriormente manifestado enquanto não houver requerimento de eliminação, nos termos do inciso VI do caput do art. 18 desta Lei.\n\n§ 6º Em caso de alteração de informação referida nos incisos I, II, III ou V do art. 9º desta Lei, o controlador deverá informar ao titular, com destaque de forma específica do teor das alterações, podendo o titular, nos casos em que o seu consentimento é exigido, revogá-lo caso discorde da alteração.",
+            "document_id": "documento",
+            "section_id": "4",
+            "source_type": "document",
+            "source_id": "documento",
+            "source_location": "Art. 8º",
+            "author_id": null,
+            "round_number": null,
+            "status": "active",
+            "confidence": null,
+            "metadata": {}
+          },
+          {
+            "id": "40367561-7d45-4fef-9865-5b2b28cda4a3",
+            "type": "claim",
+            "content": "Dados tornados manifestamente públicos pelo titular não exigem consentimento para serem tratados, conforme o Art. 7º, § 4º da Lei.",
+            "document_id": null,
+            "section_id": null,
+            "source_type": "model",
+            "source_id": "openai/gpt-4o-mini",
+            "source_location": null,
+            "author_id": "openai/gpt-4o-mini",
+            "round_number": 1,
+            "status": "active",
+            "confidence": "alta",
+            "metadata": {
+              "contribution_id": "db74c06f-7b50-407f-830b-1481f057a559",
+              "provenance": [
+                "db74c06f-7b50-407f-830b-1481f057a559",
+                "721b19f6-e00d-4f1c-b49d-275d487d16ec"
+              ]
+            }
+          }
+        ],
+        "relations": [
+          {
+            "source_id": "evidence-documento-3",
+            "relation_type": "supports",
+            "target_id": "40367561-7d45-4fef-9865-5b2b28cda4a3",
+            "author_id": "openai/gpt-4o-mini",
+            "round_number": 1
+          }
+        ],
+        "metadata": {}
+      },
+      "answerable": true
+    },
+    {
+      "question": "Uma autorização genérica de tratamento de dados, sem finalidade determinada, é válida?",
+      "expected": "Não: autorizações genéricas são nulas (art. 8º, § 4º).",
+      "model": "openai/gpt-4o-mini",
+      "answer": {
+        "prose": "Não, uma autorização genérica para o tratamento de dados pessoais será considerada nula. Segundo o Art. 8º, § 4º da lei, o consentimento deve referir-se a finalidades determinadas, e autorizações genéricas são vedadas.",
+        "declared": [
+          {
+            "id": "729a459b-d73a-4042-863f-128e8bf6c3ec",
+            "type": "claim",
+            "content": "Uma autorização genérica de tratamento de dados, sem finalidade determinada, é nula.",
+            "document_id": null,
+            "section_id": null,
+            "source_type": "model",
+            "source_id": "openai/gpt-4o-mini",
+            "source_location": null,
+            "author_id": "openai/gpt-4o-mini",
+            "round_number": 1,
+            "status": "active",
+            "confidence": "alta",
+            "metadata": {
+              "contribution_id": "8fd82e87-fb35-460a-9713-34f5397093f8",
+              "provenance": [
+                "8fd82e87-fb35-460a-9713-34f5397093f8",
+                "3c2f9147-c8ed-4e59-8f60-3cfe724308b5"
+              ]
+            }
+          }
+        ],
+        "relations": [
+          {
+            "source_id": "evidence-documento-4",
+            "relation_type": "supports",
+            "target_id": "729a459b-d73a-4042-863f-128e8bf6c3ec",
+            "author_id": "openai/gpt-4o-mini",
+            "round_number": 1
+          }
+        ],
+        "rejected": [],
+        "block_found": true
+      },
+      "review": {
+        "prose": "A autorização genérica de tratamento de dados, sem finalidade determinada, é nula, conforme estabelecido no § 4º do Art. 8º da Lei, que afirma: \"as autorizações genéricas para o tratamento de dados pessoais serão nulas.\" Portanto, essa afirmação deve ser considerada verdadeira.",
+        "declared": [
+          {
+            "id": "5011aac5-c727-429b-92b8-1500a4b8aff2",
+            "type": "claim",
+            "content": "Uma autorização genérica de tratamento de dados, sem finalidade determinada, é nula.",
+            "document_id": null,
+            "section_id": null,
+            "source_type": "model",
+            "source_id": "openai/gpt-4o-mini",
+            "source_location": null,
+            "author_id": "openai/gpt-4o-mini",
+            "round_number": 2,
+            "status": "active",
+            "confidence": "alta",
+            "metadata": {
+              "contribution_id": "3c2f9147-c8ed-4e59-8f60-3cfe724308b5",
+              "provenance": [
+                "3c2f9147-c8ed-4e59-8f60-3cfe724308b5"
+              ]
+            }
+          }
+        ],
+        "relations": [
+          {
+            "source_id": "evidence-documento-4",
+            "relation_type": "supports",
+            "target_id": "5011aac5-c727-429b-92b8-1500a4b8aff2",
+            "author_id": "openai/gpt-4o-mini",
+            "round_number": 2
+          }
+        ],
+        "rejected": [],
+        "block_found": true
+      },
+      "baseline": "Não, uma autorização genérica para o tratamento de dados pessoais será considerada nula, pois o consentimento deve referir-se a finalidades determinadas, conforme estabelecido no § 4º do art. 8º da Lei nº 13.709/2018 (LGPD).",
+      "gaps": [],
+      "open_questions": [],
+      "working_context": {
+        "question": "Uma autorização genérica de tratamento de dados, sem finalidade determinada, é válida?",
+        "items": [
+          {
+            "id": "evidence-documento-0",
+            "type": "evidence",
+            "content": "Art. 1º\nEsta Lei dispõe sobre o tratamento de dados pessoais, inclusive nos meios digitais, por pessoa natural ou por pessoa jurídica de direito público ou privado, com o objetivo de proteger os direitos fundamentais de liberdade e de privacidade e o livre desenvolvimento da personalidade da pessoa natural.\n\nParágrafo único. As normas gerais contidas nesta Lei são de interesse nacional e devem ser observadas pela União, Estados, Distrito Federal e Municípios.",
+            "document_id": "documento",
+            "section_id": "0",
+            "source_type": "document",
+            "source_id": "documento",
+            "source_location": "Art. 1º",
+            "author_id": null,
+            "round_number": null,
+            "status": "active",
+            "confidence": null,
+            "metadata": {}
+          },
+          {
+            "id": "evidence-documento-1",
+            "type": "evidence",
+            "content": "Art. 5º (incisos I, II, V, VI, VII, X e XII)\nPara os fins desta Lei, considera-se:\n\nI - dado pessoal: informação relacionada a pessoa natural identificada ou identificável;\n\nII - dado pessoal sensível: dado pessoal sobre origem racial ou étnica, convicção religiosa, opinião política, filiação a sindicato ou a organização de caráter religioso, filosófico ou político, dado referente à saúde ou à vida sexual, dado genético ou biométrico, quando vinculado a uma pessoa natural;\n\nV - titular: pessoa natural a quem se referem os dados pessoais que são objeto de tratamento;\n\nVI - controlador: pessoa natural ou jurídica, de direito público ou privado, a quem competem as decisões referentes ao tratamento de dados pessoais;\n\nVII - operador: pessoa natural ou jurídica, de direito público ou privado, que realiza o tratamento de dados pessoais em nome do controlador;\n\nX - tratamento: toda operação realizada com dados pessoais, como as que se referem a coleta, produção, recepção, classificação, utilização, acesso, reprodução, transmissão, distribuição, processamento, arquivamento, armazenamento, eliminação, avaliação ou controle da informação, modificação, comunicação, transferência, difusão ou extração;\n\nXII - consentimento: manifestação livre, informada e inequívoca pela qual o titular concorda com o tratamento de seus dados pessoais para uma finalidade determinada;",
+            "document_id": "documento",
+            "section_id": "1",
+            "source_type": "document",
+            "source_id": "documento",
+            "source_location": "Art. 5º (incisos I, II, V, VI, VII, X e XII)",
+            "author_id": null,
+            "round_number": null,
+            "status": "active",
+            "confidence": null,
+            "metadata": {}
+          },
+          {
+            "id": "evidence-documento-2",
+            "type": "evidence",
+            "content": "Art. 6º\nAs atividades de tratamento de dados pessoais deverão observar a boa-fé e os seguintes princípios:\n\nI - finalidade: realização do tratamento para propósitos legítimos, específicos, explícitos e informados ao titular, sem possibilidade de tratamento posterior de forma incompatível com essas finalidades;\n\nII - adequação: compatibilidade do tratamento com as finalidades informadas ao titular, de acordo com o contexto do tratamento;\n\nIII - necessidade: limitação do tratamento ao mínimo necessário para a realização de suas finalidades, com abrangência dos dados pertinentes, proporcionais e não excessivos em relação às finalidades do tratamento de dados;\n\nIV - livre acesso: garantia, aos titulares, de consulta facilitada e gratuita sobre a forma e a duração do tratamento, bem como sobre a integralidade de seus dados pessoais;\n\nV - qualidade dos dados: garantia, aos titulares, de exatidão, clareza, relevância e atualização dos dados, de acordo com a necessidade e para o cumprimento da finalidade de seu tratamento;\n\nVI - transparência: garantia, aos titulares, de informações claras, precisas e facilmente acessíveis sobre a realização do tratamento e os respectivos agentes de tratamento, observados os segredos comercial e industrial;\n\nVII - segurança: utilização de medidas técnicas e administrativas aptas a proteger os dados pessoais de acessos não autorizados e de situações acidentais ou ilícitas de destruição, perda, alteração, comunicação ou difusão;\n\nVIII - prevenção: adoção de medidas para prevenir a ocorrência de danos em virtude do tratamento de dados pessoais;\n\nIX - não discriminação: impossibilidade de realização do tratamento para fins discriminatórios ilícitos ou abusivos;\n\nX - responsabilização e prestação de contas: demonstração, pelo agente, da adoção de medidas eficazes e capazes de comprovar a observância e o cumprimento das normas de proteção de dados pessoais e, inclusive, da eficácia dessas medidas.",
+            "document_id": "documento",
+            "section_id": "2",
+            "source_type": "document",
+            "source_id": "documento",
+            "source_location": "Art. 6º",
+            "author_id": null,
+            "round_number": null,
+            "status": "active",
+            "confidence": null,
+            "metadata": {}
+          },
+          {
+            "id": "evidence-documento-3",
+            "type": "evidence",
+            "content": "Art. 7º\nO tratamento de dados pessoais somente poderá ser realizado nas seguintes hipóteses:\n\nI - mediante o fornecimento de consentimento pelo titular;\n\nII - para o cumprimento de obrigação legal ou regulatória pelo controlador;\n\nIII - pela administração pública, para o tratamento e uso compartilhado de dados necessários à execução de políticas públicas previstas em leis e regulamentos ou respaldadas em contratos, convênios ou instrumentos congêneres, observadas as disposições do Capítulo IV desta Lei;\n\nIV - para a realização de estudos por órgão de pesquisa, garantida, sempre que possível, a anonimização dos dados pessoais;\n\nV - quando necessário para a execução de contrato ou de procedimentos preliminares relacionados a contrato do qual seja parte o titular, a pedido do titular dos dados;\n\nVI - para o exercício regular de direitos em processo judicial, administrativo ou arbitral, esse último nos termos da Lei nº 9.307, de 23 de setembro de 1996 (Lei de Arbitragem);\n\nVII - para a proteção da vida ou da incolumidade física do titular ou de terceiro;\n\nVIII - para a tutela da saúde, exclusivamente, em procedimento realizado por profissionais de saúde, serviços de saúde ou autoridade sanitária;\n\nIX - quando necessário para atender aos interesses legítimos do controlador ou de terceiro, exceto no caso de prevalecerem direitos e liberdades fundamentais do titular que exijam a proteção dos dados pessoais; ou\n\nX - para a proteção do crédito, inclusive quanto ao disposto na legislação pertinente.\n\n§ 3º O tratamento de dados pessoais cujo acesso é público deve considerar a finalidade, a boa-fé e o interesse público que justificaram sua disponibilização.\n\n§ 4º É dispensada a exigência do consentimento previsto no caput deste artigo para os dados tornados manifestamente públicos pelo titular, resguardados os direitos do titular e os princípios previstos nesta Lei.\n\n§ 5º O controlador que obteve o consentimento referido no inciso I do caput deste artigo que necessitar comunicar ou compartilhar dados pessoais com outros controladores deverá obter consentimento específico do titular para esse fim, ressalvadas as hipóteses de dispensa do consentimento previstas nesta Lei.\n\n§ 6º A eventual dispensa da exigência do consentimento não desobriga os agentes de tratamento das demais obrigações previstas nesta Lei, especialmente da observância dos princípios gerais e da garantia dos direitos do titular.\n\n§ 7º O tratamento posterior dos dados pessoais a que se referem os §§ 3º e 4º deste artigo poderá ser realizado para novas finalidades, desde que observados os propósitos legítimos e específicos para o novo tratamento e a preservação dos direitos do titular, assim como os fundamentos e os princípios previstos nesta Lei.",
+            "document_id": "documento",
+            "section_id": "3",
+            "source_type": "document",
+            "source_id": "documento",
+            "source_location": "Art. 7º",
+            "author_id": null,
+            "round_number": null,
+            "status": "active",
+            "confidence": null,
+            "metadata": {}
+          },
+          {
+            "id": "evidence-documento-4",
+            "type": "evidence",
+            "content": "Art. 8º\nO consentimento previsto no inciso I do art. 7º desta Lei deverá ser fornecido por escrito ou por outro meio que demonstre a manifestação de vontade do titular.\n\n§ 1º Caso o consentimento seja fornecido por escrito, esse deverá constar de cláusula destacada das demais cláusulas contratuais.\n\n§ 2º Cabe ao controlador o ônus da prova de que o consentimento foi obtido em conformidade com o disposto nesta Lei.\n\n§ 3º É vedado o tratamento de dados pessoais mediante vício de consentimento.\n\n§ 4º O consentimento deverá referir-se a finalidades determinadas, e as autorizações genéricas para o tratamento de dados pessoais serão nulas.\n\n§ 5º O consentimento pode ser revogado a qualquer momento mediante manifestação expressa do titular, por procedimento gratuito e facilitado, ratificados os tratamentos realizados sob amparo do consentimento anteriormente manifestado enquanto não houver requerimento de eliminação, nos termos do inciso VI do caput do art. 18 desta Lei.\n\n§ 6º Em caso de alteração de informação referida nos incisos I, II, III ou V do art. 9º desta Lei, o controlador deverá informar ao titular, com destaque de forma específica do teor das alterações, podendo o titular, nos casos em que o seu consentimento é exigido, revogá-lo caso discorde da alteração.",
+            "document_id": "documento",
+            "section_id": "4",
+            "source_type": "document",
+            "source_id": "documento",
+            "source_location": "Art. 8º",
+            "author_id": null,
+            "round_number": null,
+            "status": "active",
+            "confidence": null,
+            "metadata": {}
+          },
+          {
+            "id": "729a459b-d73a-4042-863f-128e8bf6c3ec",
+            "type": "claim",
+            "content": "Uma autorização genérica de tratamento de dados, sem finalidade determinada, é nula.",
+            "document_id": null,
+            "section_id": null,
+            "source_type": "model",
+            "source_id": "openai/gpt-4o-mini",
+            "source_location": null,
+            "author_id": "openai/gpt-4o-mini",
+            "round_number": 1,
+            "status": "active",
+            "confidence": "alta",
+            "metadata": {
+              "contribution_id": "8fd82e87-fb35-460a-9713-34f5397093f8",
+              "provenance": [
+                "8fd82e87-fb35-460a-9713-34f5397093f8",
+                "3c2f9147-c8ed-4e59-8f60-3cfe724308b5"
+              ]
+            }
+          }
+        ],
+        "relations": [
+          {
+            "source_id": "evidence-documento-4",
+            "relation_type": "supports",
+            "target_id": "729a459b-d73a-4042-863f-128e8bf6c3ec",
+            "author_id": "openai/gpt-4o-mini",
+            "round_number": 1
+          }
+        ],
+        "metadata": {}
+      },
+      "answerable": true
+    },
+    {
+      "question": "Qual é o valor máximo da multa que a autoridade pode aplicar por infração à LGPD?",
+      "expected": "O trecho não traz a resposta: as sanções estão no art. 52, fora deste documento. O esperado é declarar a lacuna.",
+      "model": "openai/gpt-4o-mini",
+      "answer": {
+        "prose": "O documento não fornece informações sobre o valor máximo da multa que a autoridade pode aplicar por infração à LGPD, representando uma lacuna.",
+        "declared": [
+          {
+            "id": "bbfef0f4-aaaf-4bee-9f6e-b505b1c47f76",
+            "type": "gap",
+            "content": "O documento não menciona o valor máximo da multa que a autoridade pode aplicar por infração à LGPD.",
+            "document_id": null,
+            "section_id": null,
+            "source_type": "model",
+            "source_id": "openai/gpt-4o-mini",
+            "source_location": null,
+            "author_id": "openai/gpt-4o-mini",
+            "round_number": 1,
+            "status": "active",
+            "confidence": "alta",
+            "metadata": {
+              "contribution_id": "e7c1a484-9bae-4a0f-aa90-6142ee176190",
+              "provenance": [
+                "e7c1a484-9bae-4a0f-aa90-6142ee176190",
+                "884d4b88-32f2-436b-8951-1db7e0455071"
+              ]
+            }
+          }
+        ],
+        "relations": [],
+        "rejected": [],
+        "block_found": true
+      },
+      "review": {
+        "prose": "A resposta deve ser revisada para refletir apenas o que está claramente afirmado ou inferido no documento. O documento da LGPD não menciona explicitamente o valor máximo da multa que a autoridade pode aplicar por infração à lei. Portanto, a resposta anterior que indicava a ausência dessa informação é válida e deve ser mantida como um gap, pois o documento não aborda esse aspecto.\n\nAssim, a resposta revisada é:\n\nO documento não menciona o valor máximo da multa que a autoridade pode aplicar por infração à LGPD.",
+        "declared": [
+          {
+            "id": "7ab1c5c8-65ea-465e-8086-aa34735e629f",
+            "type": "gap",
+            "content": "O documento não menciona o valor máximo da multa que a autoridade pode aplicar por infração à LGPD.",
+            "document_id": null,
+            "section_id": null,
+            "source_type": "model",
+            "source_id": "openai/gpt-4o-mini",
+            "source_location": null,
+            "author_id": "openai/gpt-4o-mini",
+            "round_number": 2,
+            "status": "active",
+            "confidence": "alta",
+            "metadata": {
+              "contribution_id": "884d4b88-32f2-436b-8951-1db7e0455071",
+              "provenance": [
+                "884d4b88-32f2-436b-8951-1db7e0455071"
+              ]
+            }
+          }
+        ],
+        "relations": [],
+        "rejected": [],
+        "block_found": true
+      },
+      "baseline": "O documento fornecido não menciona o valor máximo da multa que a autoridade pode aplicar por infração à LGPD. Para obter essa informação, seria necessário consultar o texto completo da Lei nº 13.709/2018 (LGPD) ou fontes adicionais que tratem das penalidades previstas na lei.",
+      "gaps": [
+        {
+          "gap_id": "bbfef0f4-aaaf-4bee-9f6e-b505b1c47f76",
+          "content": "O documento não menciona o valor máximo da multa que a autoridade pode aplicar por infração à LGPD.",
+          "item_status": "active",
+          "state": "open",
+          "basis": "derived",
+          "round_number": 1,
+          "author_id": "openai/gpt-4o-mini",
+          "resolved_by": [],
+          "superseded_by": [],
+          "resolution_relations": [],
+          "supersession_relations": []
+        }
+      ],
+      "open_questions": [],
+      "working_context": {
+        "question": "Qual é o valor máximo da multa que a autoridade pode aplicar por infração à LGPD?",
+        "items": [
+          {
+            "id": "evidence-documento-0",
+            "type": "evidence",
+            "content": "Art. 1º\nEsta Lei dispõe sobre o tratamento de dados pessoais, inclusive nos meios digitais, por pessoa natural ou por pessoa jurídica de direito público ou privado, com o objetivo de proteger os direitos fundamentais de liberdade e de privacidade e o livre desenvolvimento da personalidade da pessoa natural.\n\nParágrafo único. As normas gerais contidas nesta Lei são de interesse nacional e devem ser observadas pela União, Estados, Distrito Federal e Municípios.",
+            "document_id": "documento",
+            "section_id": "0",
+            "source_type": "document",
+            "source_id": "documento",
+            "source_location": "Art. 1º",
+            "author_id": null,
+            "round_number": null,
+            "status": "active",
+            "confidence": null,
+            "metadata": {}
+          },
+          {
+            "id": "evidence-documento-1",
+            "type": "evidence",
+            "content": "Art. 5º (incisos I, II, V, VI, VII, X e XII)\nPara os fins desta Lei, considera-se:\n\nI - dado pessoal: informação relacionada a pessoa natural identificada ou identificável;\n\nII - dado pessoal sensível: dado pessoal sobre origem racial ou étnica, convicção religiosa, opinião política, filiação a sindicato ou a organização de caráter religioso, filosófico ou político, dado referente à saúde ou à vida sexual, dado genético ou biométrico, quando vinculado a uma pessoa natural;\n\nV - titular: pessoa natural a quem se referem os dados pessoais que são objeto de tratamento;\n\nVI - controlador: pessoa natural ou jurídica, de direito público ou privado, a quem competem as decisões referentes ao tratamento de dados pessoais;\n\nVII - operador: pessoa natural ou jurídica, de direito público ou privado, que realiza o tratamento de dados pessoais em nome do controlador;\n\nX - tratamento: toda operação realizada com dados pessoais, como as que se referem a coleta, produção, recepção, classificação, utilização, acesso, reprodução, transmissão, distribuição, processamento, arquivamento, armazenamento, eliminação, avaliação ou controle da informação, modificação, comunicação, transferência, difusão ou extração;\n\nXII - consentimento: manifestação livre, informada e inequívoca pela qual o titular concorda com o tratamento de seus dados pessoais para uma finalidade determinada;",
+            "document_id": "documento",
+            "section_id": "1",
+            "source_type": "document",
+            "source_id": "documento",
+            "source_location": "Art. 5º (incisos I, II, V, VI, VII, X e XII)",
+            "author_id": null,
+            "round_number": null,
+            "status": "active",
+            "confidence": null,
+            "metadata": {}
+          },
+          {
+            "id": "evidence-documento-2",
+            "type": "evidence",
+            "content": "Art. 6º\nAs atividades de tratamento de dados pessoais deverão observar a boa-fé e os seguintes princípios:\n\nI - finalidade: realização do tratamento para propósitos legítimos, específicos, explícitos e informados ao titular, sem possibilidade de tratamento posterior de forma incompatível com essas finalidades;\n\nII - adequação: compatibilidade do tratamento com as finalidades informadas ao titular, de acordo com o contexto do tratamento;\n\nIII - necessidade: limitação do tratamento ao mínimo necessário para a realização de suas finalidades, com abrangência dos dados pertinentes, proporcionais e não excessivos em relação às finalidades do tratamento de dados;\n\nIV - livre acesso: garantia, aos titulares, de consulta facilitada e gratuita sobre a forma e a duração do tratamento, bem como sobre a integralidade de seus dados pessoais;\n\nV - qualidade dos dados: garantia, aos titulares, de exatidão, clareza, relevância e atualização dos dados, de acordo com a necessidade e para o cumprimento da finalidade de seu tratamento;\n\nVI - transparência: garantia, aos titulares, de informações claras, precisas e facilmente acessíveis sobre a realização do tratamento e os respectivos agentes de tratamento, observados os segredos comercial e industrial;\n\nVII - segurança: utilização de medidas técnicas e administrativas aptas a proteger os dados pessoais de acessos não autorizados e de situações acidentais ou ilícitas de destruição, perda, alteração, comunicação ou difusão;\n\nVIII - prevenção: adoção de medidas para prevenir a ocorrência de danos em virtude do tratamento de dados pessoais;\n\nIX - não discriminação: impossibilidade de realização do tratamento para fins discriminatórios ilícitos ou abusivos;\n\nX - responsabilização e prestação de contas: demonstração, pelo agente, da adoção de medidas eficazes e capazes de comprovar a observância e o cumprimento das normas de proteção de dados pessoais e, inclusive, da eficácia dessas medidas.",
+            "document_id": "documento",
+            "section_id": "2",
+            "source_type": "document",
+            "source_id": "documento",
+            "source_location": "Art. 6º",
+            "author_id": null,
+            "round_number": null,
+            "status": "active",
+            "confidence": null,
+            "metadata": {}
+          },
+          {
+            "id": "evidence-documento-3",
+            "type": "evidence",
+            "content": "Art. 7º\nO tratamento de dados pessoais somente poderá ser realizado nas seguintes hipóteses:\n\nI - mediante o fornecimento de consentimento pelo titular;\n\nII - para o cumprimento de obrigação legal ou regulatória pelo controlador;\n\nIII - pela administração pública, para o tratamento e uso compartilhado de dados necessários à execução de políticas públicas previstas em leis e regulamentos ou respaldadas em contratos, convênios ou instrumentos congêneres, observadas as disposições do Capítulo IV desta Lei;\n\nIV - para a realização de estudos por órgão de pesquisa, garantida, sempre que possível, a anonimização dos dados pessoais;\n\nV - quando necessário para a execução de contrato ou de procedimentos preliminares relacionados a contrato do qual seja parte o titular, a pedido do titular dos dados;\n\nVI - para o exercício regular de direitos em processo judicial, administrativo ou arbitral, esse último nos termos da Lei nº 9.307, de 23 de setembro de 1996 (Lei de Arbitragem);\n\nVII - para a proteção da vida ou da incolumidade física do titular ou de terceiro;\n\nVIII - para a tutela da saúde, exclusivamente, em procedimento realizado por profissionais de saúde, serviços de saúde ou autoridade sanitária;\n\nIX - quando necessário para atender aos interesses legítimos do controlador ou de terceiro, exceto no caso de prevalecerem direitos e liberdades fundamentais do titular que exijam a proteção dos dados pessoais; ou\n\nX - para a proteção do crédito, inclusive quanto ao disposto na legislação pertinente.\n\n§ 3º O tratamento de dados pessoais cujo acesso é público deve considerar a finalidade, a boa-fé e o interesse público que justificaram sua disponibilização.\n\n§ 4º É dispensada a exigência do consentimento previsto no caput deste artigo para os dados tornados manifestamente públicos pelo titular, resguardados os direitos do titular e os princípios previstos nesta Lei.\n\n§ 5º O controlador que obteve o consentimento referido no inciso I do caput deste artigo que necessitar comunicar ou compartilhar dados pessoais com outros controladores deverá obter consentimento específico do titular para esse fim, ressalvadas as hipóteses de dispensa do consentimento previstas nesta Lei.\n\n§ 6º A eventual dispensa da exigência do consentimento não desobriga os agentes de tratamento das demais obrigações previstas nesta Lei, especialmente da observância dos princípios gerais e da garantia dos direitos do titular.\n\n§ 7º O tratamento posterior dos dados pessoais a que se referem os §§ 3º e 4º deste artigo poderá ser realizado para novas finalidades, desde que observados os propósitos legítimos e específicos para o novo tratamento e a preservação dos direitos do titular, assim como os fundamentos e os princípios previstos nesta Lei.",
+            "document_id": "documento",
+            "section_id": "3",
+            "source_type": "document",
+            "source_id": "documento",
+            "source_location": "Art. 7º",
+            "author_id": null,
+            "round_number": null,
+            "status": "active",
+            "confidence": null,
+            "metadata": {}
+          },
+          {
+            "id": "evidence-documento-4",
+            "type": "evidence",
+            "content": "Art. 8º\nO consentimento previsto no inciso I do art. 7º desta Lei deverá ser fornecido por escrito ou por outro meio que demonstre a manifestação de vontade do titular.\n\n§ 1º Caso o consentimento seja fornecido por escrito, esse deverá constar de cláusula destacada das demais cláusulas contratuais.\n\n§ 2º Cabe ao controlador o ônus da prova de que o consentimento foi obtido em conformidade com o disposto nesta Lei.\n\n§ 3º É vedado o tratamento de dados pessoais mediante vício de consentimento.\n\n§ 4º O consentimento deverá referir-se a finalidades determinadas, e as autorizações genéricas para o tratamento de dados pessoais serão nulas.\n\n§ 5º O consentimento pode ser revogado a qualquer momento mediante manifestação expressa do titular, por procedimento gratuito e facilitado, ratificados os tratamentos realizados sob amparo do consentimento anteriormente manifestado enquanto não houver requerimento de eliminação, nos termos do inciso VI do caput do art. 18 desta Lei.\n\n§ 6º Em caso de alteração de informação referida nos incisos I, II, III ou V do art. 9º desta Lei, o controlador deverá informar ao titular, com destaque de forma específica do teor das alterações, podendo o titular, nos casos em que o seu consentimento é exigido, revogá-lo caso discorde da alteração.",
+            "document_id": "documento",
+            "section_id": "4",
+            "source_type": "document",
+            "source_id": "documento",
+            "source_location": "Art. 8º",
+            "author_id": null,
+            "round_number": null,
+            "status": "active",
+            "confidence": null,
+            "metadata": {}
+          },
+          {
+            "id": "bbfef0f4-aaaf-4bee-9f6e-b505b1c47f76",
+            "type": "gap",
+            "content": "O documento não menciona o valor máximo da multa que a autoridade pode aplicar por infração à LGPD.",
+            "document_id": null,
+            "section_id": null,
+            "source_type": "model",
+            "source_id": "openai/gpt-4o-mini",
+            "source_location": null,
+            "author_id": "openai/gpt-4o-mini",
+            "round_number": 1,
+            "status": "active",
+            "confidence": "alta",
+            "metadata": {
+              "contribution_id": "e7c1a484-9bae-4a0f-aa90-6142ee176190",
+              "provenance": [
+                "e7c1a484-9bae-4a0f-aa90-6142ee176190",
+                "884d4b88-32f2-436b-8951-1db7e0455071"
+              ]
+            }
+          }
+        ],
+        "relations": [],
+        "metadata": {}
+      },
+      "answerable": false
+    },
+    {
+      "question": "Em quantos dias o controlador deve responder a um pedido de acesso do titular?",
+      "expected": "O trecho não traz a resposta: os prazos de atendimento estão no art. 19, fora deste documento. O esperado é declarar a lacuna.",
+      "model": "openai/gpt-4o-mini",
+      "answer": {
+        "prose": "O documento não especifica em quantos dias o controlador deve responder a um pedido de acesso do titular, portanto, há uma lacuna de informação a respeito dessa questão.",
+        "declared": [
+          {
+            "id": "523fe47c-b056-4e68-abdd-a7c91a053732",
+            "type": "gap",
+            "content": "O documento não especifica em quantos dias o controlador deve responder a um pedido de acesso do titular.",
+            "document_id": null,
+            "section_id": null,
+            "source_type": "model",
+            "source_id": "openai/gpt-4o-mini",
+            "source_location": null,
+            "author_id": "openai/gpt-4o-mini",
+            "round_number": 1,
+            "status": "active",
+            "confidence": "alta",
+            "metadata": {
+              "contribution_id": "a6a513e8-da83-44dc-97b8-feb529ef8189",
+              "provenance": [
+                "a6a513e8-da83-44dc-97b8-feb529ef8189",
+                "34d747c0-d269-4de6-a37f-ef2ad11e670a"
+              ]
+            }
+          }
+        ],
+        "relations": [],
+        "rejected": [],
+        "block_found": true
+      },
+      "review": {
+        "prose": "A resposta anterior permanece válida, pois o documento não especifica em quantos dias o controlador deve responder a um pedido de acesso do titular. Portanto, a informação sobre a falta de um prazo definido é correta e se mantém como uma lacuna (gap) no contexto do documento. \n\nAssim, a informação é:\n\n- O documento não especifica em quantos dias o controlador deve responder a um pedido de acesso do titular.\n\nNão há relações adicionais a serem adicionadas, já que a afirmação é um gap.",
+        "declared": [
+          {
+            "id": "8025dbc7-e216-4ec7-91a4-89e22ba454e9",
+            "type": "gap",
+            "content": "O documento não especifica em quantos dias o controlador deve responder a um pedido de acesso do titular.",
+            "document_id": null,
+            "section_id": null,
+            "source_type": "model",
+            "source_id": "openai/gpt-4o-mini",
+            "source_location": null,
+            "author_id": "openai/gpt-4o-mini",
+            "round_number": 2,
+            "status": "active",
+            "confidence": "alta",
+            "metadata": {
+              "contribution_id": "34d747c0-d269-4de6-a37f-ef2ad11e670a",
+              "provenance": [
+                "34d747c0-d269-4de6-a37f-ef2ad11e670a"
+              ]
+            }
+          }
+        ],
+        "relations": [],
+        "rejected": [],
+        "block_found": true
+      },
+      "baseline": "O documento fornecido não especifica o prazo em dias para que o controlador responda a um pedido de acesso do titular. Para obter essa informação, é necessário consultar a legislação pertinente ou a interpretação das normas aplicáveis da Lei Geral de Proteção de Dados (LGPD).",
+      "gaps": [
+        {
+          "gap_id": "523fe47c-b056-4e68-abdd-a7c91a053732",
+          "content": "O documento não especifica em quantos dias o controlador deve responder a um pedido de acesso do titular.",
+          "item_status": "active",
+          "state": "open",
+          "basis": "derived",
+          "round_number": 1,
+          "author_id": "openai/gpt-4o-mini",
+          "resolved_by": [],
+          "superseded_by": [],
+          "resolution_relations": [],
+          "supersession_relations": []
+        }
+      ],
+      "open_questions": [],
+      "working_context": {
+        "question": "Em quantos dias o controlador deve responder a um pedido de acesso do titular?",
+        "items": [
+          {
+            "id": "evidence-documento-0",
+            "type": "evidence",
+            "content": "Art. 1º\nEsta Lei dispõe sobre o tratamento de dados pessoais, inclusive nos meios digitais, por pessoa natural ou por pessoa jurídica de direito público ou privado, com o objetivo de proteger os direitos fundamentais de liberdade e de privacidade e o livre desenvolvimento da personalidade da pessoa natural.\n\nParágrafo único. As normas gerais contidas nesta Lei são de interesse nacional e devem ser observadas pela União, Estados, Distrito Federal e Municípios.",
+            "document_id": "documento",
+            "section_id": "0",
+            "source_type": "document",
+            "source_id": "documento",
+            "source_location": "Art. 1º",
+            "author_id": null,
+            "round_number": null,
+            "status": "active",
+            "confidence": null,
+            "metadata": {}
+          },
+          {
+            "id": "evidence-documento-1",
+            "type": "evidence",
+            "content": "Art. 5º (incisos I, II, V, VI, VII, X e XII)\nPara os fins desta Lei, considera-se:\n\nI - dado pessoal: informação relacionada a pessoa natural identificada ou identificável;\n\nII - dado pessoal sensível: dado pessoal sobre origem racial ou étnica, convicção religiosa, opinião política, filiação a sindicato ou a organização de caráter religioso, filosófico ou político, dado referente à saúde ou à vida sexual, dado genético ou biométrico, quando vinculado a uma pessoa natural;\n\nV - titular: pessoa natural a quem se referem os dados pessoais que são objeto de tratamento;\n\nVI - controlador: pessoa natural ou jurídica, de direito público ou privado, a quem competem as decisões referentes ao tratamento de dados pessoais;\n\nVII - operador: pessoa natural ou jurídica, de direito público ou privado, que realiza o tratamento de dados pessoais em nome do controlador;\n\nX - tratamento: toda operação realizada com dados pessoais, como as que se referem a coleta, produção, recepção, classificação, utilização, acesso, reprodução, transmissão, distribuição, processamento, arquivamento, armazenamento, eliminação, avaliação ou controle da informação, modificação, comunicação, transferência, difusão ou extração;\n\nXII - consentimento: manifestação livre, informada e inequívoca pela qual o titular concorda com o tratamento de seus dados pessoais para uma finalidade determinada;",
+            "document_id": "documento",
+            "section_id": "1",
+            "source_type": "document",
+            "source_id": "documento",
+            "source_location": "Art. 5º (incisos I, II, V, VI, VII, X e XII)",
+            "author_id": null,
+            "round_number": null,
+            "status": "active",
+            "confidence": null,
+            "metadata": {}
+          },
+          {
+            "id": "evidence-documento-2",
+            "type": "evidence",
+            "content": "Art. 6º\nAs atividades de tratamento de dados pessoais deverão observar a boa-fé e os seguintes princípios:\n\nI - finalidade: realização do tratamento para propósitos legítimos, específicos, explícitos e informados ao titular, sem possibilidade de tratamento posterior de forma incompatível com essas finalidades;\n\nII - adequação: compatibilidade do tratamento com as finalidades informadas ao titular, de acordo com o contexto do tratamento;\n\nIII - necessidade: limitação do tratamento ao mínimo necessário para a realização de suas finalidades, com abrangência dos dados pertinentes, proporcionais e não excessivos em relação às finalidades do tratamento de dados;\n\nIV - livre acesso: garantia, aos titulares, de consulta facilitada e gratuita sobre a forma e a duração do tratamento, bem como sobre a integralidade de seus dados pessoais;\n\nV - qualidade dos dados: garantia, aos titulares, de exatidão, clareza, relevância e atualização dos dados, de acordo com a necessidade e para o cumprimento da finalidade de seu tratamento;\n\nVI - transparência: garantia, aos titulares, de informações claras, precisas e facilmente acessíveis sobre a realização do tratamento e os respectivos agentes de tratamento, observados os segredos comercial e industrial;\n\nVII - segurança: utilização de medidas técnicas e administrativas aptas a proteger os dados pessoais de acessos não autorizados e de situações acidentais ou ilícitas de destruição, perda, alteração, comunicação ou difusão;\n\nVIII - prevenção: adoção de medidas para prevenir a ocorrência de danos em virtude do tratamento de dados pessoais;\n\nIX - não discriminação: impossibilidade de realização do tratamento para fins discriminatórios ilícitos ou abusivos;\n\nX - responsabilização e prestação de contas: demonstração, pelo agente, da adoção de medidas eficazes e capazes de comprovar a observância e o cumprimento das normas de proteção de dados pessoais e, inclusive, da eficácia dessas medidas.",
+            "document_id": "documento",
+            "section_id": "2",
+            "source_type": "document",
+            "source_id": "documento",
+            "source_location": "Art. 6º",
+            "author_id": null,
+            "round_number": null,
+            "status": "active",
+            "confidence": null,
+            "metadata": {}
+          },
+          {
+            "id": "evidence-documento-3",
+            "type": "evidence",
+            "content": "Art. 7º\nO tratamento de dados pessoais somente poderá ser realizado nas seguintes hipóteses:\n\nI - mediante o fornecimento de consentimento pelo titular;\n\nII - para o cumprimento de obrigação legal ou regulatória pelo controlador;\n\nIII - pela administração pública, para o tratamento e uso compartilhado de dados necessários à execução de políticas públicas previstas em leis e regulamentos ou respaldadas em contratos, convênios ou instrumentos congêneres, observadas as disposições do Capítulo IV desta Lei;\n\nIV - para a realização de estudos por órgão de pesquisa, garantida, sempre que possível, a anonimização dos dados pessoais;\n\nV - quando necessário para a execução de contrato ou de procedimentos preliminares relacionados a contrato do qual seja parte o titular, a pedido do titular dos dados;\n\nVI - para o exercício regular de direitos em processo judicial, administrativo ou arbitral, esse último nos termos da Lei nº 9.307, de 23 de setembro de 1996 (Lei de Arbitragem);\n\nVII - para a proteção da vida ou da incolumidade física do titular ou de terceiro;\n\nVIII - para a tutela da saúde, exclusivamente, em procedimento realizado por profissionais de saúde, serviços de saúde ou autoridade sanitária;\n\nIX - quando necessário para atender aos interesses legítimos do controlador ou de terceiro, exceto no caso de prevalecerem direitos e liberdades fundamentais do titular que exijam a proteção dos dados pessoais; ou\n\nX - para a proteção do crédito, inclusive quanto ao disposto na legislação pertinente.\n\n§ 3º O tratamento de dados pessoais cujo acesso é público deve considerar a finalidade, a boa-fé e o interesse público que justificaram sua disponibilização.\n\n§ 4º É dispensada a exigência do consentimento previsto no caput deste artigo para os dados tornados manifestamente públicos pelo titular, resguardados os direitos do titular e os princípios previstos nesta Lei.\n\n§ 5º O controlador que obteve o consentimento referido no inciso I do caput deste artigo que necessitar comunicar ou compartilhar dados pessoais com outros controladores deverá obter consentimento específico do titular para esse fim, ressalvadas as hipóteses de dispensa do consentimento previstas nesta Lei.\n\n§ 6º A eventual dispensa da exigência do consentimento não desobriga os agentes de tratamento das demais obrigações previstas nesta Lei, especialmente da observância dos princípios gerais e da garantia dos direitos do titular.\n\n§ 7º O tratamento posterior dos dados pessoais a que se referem os §§ 3º e 4º deste artigo poderá ser realizado para novas finalidades, desde que observados os propósitos legítimos e específicos para o novo tratamento e a preservação dos direitos do titular, assim como os fundamentos e os princípios previstos nesta Lei.",
+            "document_id": "documento",
+            "section_id": "3",
+            "source_type": "document",
+            "source_id": "documento",
+            "source_location": "Art. 7º",
+            "author_id": null,
+            "round_number": null,
+            "status": "active",
+            "confidence": null,
+            "metadata": {}
+          },
+          {
+            "id": "evidence-documento-4",
+            "type": "evidence",
+            "content": "Art. 8º\nO consentimento previsto no inciso I do art. 7º desta Lei deverá ser fornecido por escrito ou por outro meio que demonstre a manifestação de vontade do titular.\n\n§ 1º Caso o consentimento seja fornecido por escrito, esse deverá constar de cláusula destacada das demais cláusulas contratuais.\n\n§ 2º Cabe ao controlador o ônus da prova de que o consentimento foi obtido em conformidade com o disposto nesta Lei.\n\n§ 3º É vedado o tratamento de dados pessoais mediante vício de consentimento.\n\n§ 4º O consentimento deverá referir-se a finalidades determinadas, e as autorizações genéricas para o tratamento de dados pessoais serão nulas.\n\n§ 5º O consentimento pode ser revogado a qualquer momento mediante manifestação expressa do titular, por procedimento gratuito e facilitado, ratificados os tratamentos realizados sob amparo do consentimento anteriormente manifestado enquanto não houver requerimento de eliminação, nos termos do inciso VI do caput do art. 18 desta Lei.\n\n§ 6º Em caso de alteração de informação referida nos incisos I, II, III ou V do art. 9º desta Lei, o controlador deverá informar ao titular, com destaque de forma específica do teor das alterações, podendo o titular, nos casos em que o seu consentimento é exigido, revogá-lo caso discorde da alteração.",
+            "document_id": "documento",
+            "section_id": "4",
+            "source_type": "document",
+            "source_id": "documento",
+            "source_location": "Art. 8º",
+            "author_id": null,
+            "round_number": null,
+            "status": "active",
+            "confidence": null,
+            "metadata": {}
+          },
+          {
+            "id": "523fe47c-b056-4e68-abdd-a7c91a053732",
+            "type": "gap",
+            "content": "O documento não especifica em quantos dias o controlador deve responder a um pedido de acesso do titular.",
+            "document_id": null,
+            "section_id": null,
+            "source_type": "model",
+            "source_id": "openai/gpt-4o-mini",
+            "source_location": null,
+            "author_id": "openai/gpt-4o-mini",
+            "round_number": 1,
+            "status": "active",
+            "confidence": "alta",
+            "metadata": {
+              "contribution_id": "a6a513e8-da83-44dc-97b8-feb529ef8189",
+              "provenance": [
+                "a6a513e8-da83-44dc-97b8-feb529ef8189",
+                "34d747c0-d269-4de6-a37f-ef2ad11e670a"
+              ]
+            }
+          }
+        ],
+        "relations": [],
+        "metadata": {}
+      },
+      "answerable": false
+    }
+  ]
+}
