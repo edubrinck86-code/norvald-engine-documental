@@ -2,9 +2,30 @@
 
 *[English below](#english)*
 
-O modelo declara o que sabe; a engine valida e organiza.
+**Respostas de IA que se pode auditar: cada afirmação ligada ao trecho que a sustenta, e cada "não sei" registrado como item.**
 
-Em vez de entregar ao modelo um texto corrido e torcer para ele se lembrar do que disse, a engine pede que cada resposta termine com uma declaração estruturada: cada afirmação com um **tipo** (afirmação, inferência, decisão, lacuna, pergunta em aberto...), uma **confiança** e as **relações** com os trechos do documento que a sustentam. A engine lê essa declaração, aceita o que fecha, recusa o resto com o motivo e guarda tudo num grafo, o Working Context. Na rodada seguinte, o modelo recebe o próprio raciocínio nesse formato, e não como texto corrido.
+Quem usa LLM sobre documentos (contratos, normas, processos, prontuários) esbarra sempre nos mesmos três problemas:
+
+1. **Não dá para conferir de onde veio a resposta.** O texto corrido mistura o que está no documento com o que o modelo supôs.
+2. **O "não consta" se perde.** Quando a informação não existe, ou o modelo inventa, ou responde vago, e ninguém consegue contar quantas perguntas ficaram sem resposta.
+3. **O modelo muda de ideia sem motivo.** Numa segunda rodada, ele revisa o que já tinha acertado.
+
+A engine resolve isso com um contrato simples: o modelo responde e declara, em formato estruturado, cada afirmação com **tipo**, **confiança** e o **trecho do documento** que a sustenta. Lacunas e perguntas em aberto viram itens com estado (aberta, resolvida, substituída). A engine valida a forma, recusa o que não fecha (com o motivo) e guarda tudo num grafo que pode ser auditado, contado e exportado.
+
+## Para quem
+
+- **Jurídico e compliance:** parecer com cada conclusão apontando o artigo ou a cláusula.
+- **Regulação e controle:** triagem de processos em que "não há informação" precisa ser registrado, não omitido.
+- **Saúde e seguros:** leitura de normas e documentos em que a resposta errada custa caro.
+- **Times de IA:** uma camada de declaração e validação que funciona com qualquer modelo compatível com a API da OpenAI, sem juiz nem segundo modelo.
+
+## Por que confiar
+
+O método vem de três estudos pré-registrados, com dados abertos, cerca de 11 mil perguntas e mais de 30 modelos. No estudo sobre formato, ver a própria resposta anterior como itens e relações, o formato desta engine, fez os modelos trocarem de resposta em **3,9%** das revisões, contra **10,3%** em texto corrido, sem perder correções (p = 0,00006).
+
+## Teste nos seus documentos
+
+O código é aberto (Apache-2.0) e roda na sua máquina, com a sua chave: o documento não sai do seu ambiente. Se preferir, rodamos um piloto **gratuito** num documento e num conjunto de perguntas escolhidos por você, e entregamos o resultado com cada fonte marcada: **contato@norvald.com.br**.
 
 > Esta é uma parte do sistema; a versão mais ampla está em teste.
 
@@ -76,7 +97,11 @@ Eduardo Guedes · Norvald · ORCID [0009-0003-9960-3337](https://orcid.org/0009-
 
 ## English
 
-The model declares what it knows; the engine validates and organizes it.
+**Auditable AI answers: every statement linked to the passage that supports it, every "I don't know" recorded as an item.**
+
+For legal, compliance, regulatory and health teams running LLMs over documents. Works with any OpenAI-compatible model, no judge or second model. Runs on your machine with your key.
+
+**Free pilot** on a document and questions you choose: contato@norvald.com.br
 
 Each answer ends with a structured declaration: every statement with a **type** (claim, inference, decision, gap, open question...), a **confidence**, and its **relations** to the document excerpts that support it. The engine accepts what fits, rejects the rest with a reason, and stores everything in a graph, the Working Context. On the next turn the model sees its own reasoning in this form, not as running text.
 
