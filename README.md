@@ -21,7 +21,7 @@ The engine solves this with a simple contract: the model answers and declares, i
 
 ## Why trust it
 
-The method comes from three preregistered studies with open data, and exploratory tests with more than 30 models:
+The method comes from three preregistered studies with open data, and exploratory tests with more than 30 models, about 11 thousand model answers in total:
 
 - **Seeing its own reasoning stabilizes review.** When the model reviews its own full work, not just its previous choice, answer changes drop from **18.8% to 2.9%**.
 - **The engine's format stabilizes it further.** With the same content organized as items and relations instead of running text, answer changes drop from **10.3% to 3.9%** (p = 0.00006, 431 pairs), with no loss of corrections.
@@ -114,7 +114,7 @@ A engine resolve isso com um contrato simples: o modelo responde e declara, em f
 
 ### Por que confiar
 
-O método vem de três estudos pré-registrados, com dados abertos, e testes exploratórios com mais de 30 modelos (pré-registros e DOIs na tabela acima):
+O método vem de três estudos pré-registrados, com dados abertos, e testes exploratórios com mais de 30 modelos, cerca de 11 mil respostas de modelos no total (pré-registros e DOIs na tabela acima):
 
 - **Ver o próprio raciocínio estabiliza a revisão.** Quando o modelo revê o próprio trabalho completo, e não só a escolha anterior, a troca de resposta cai de **18,8% para 2,9%**.
 - **O formato da engine estabiliza ainda mais.** Com o mesmo conteúdo, organizado em itens e relações em vez de texto corrido, a troca cai de **10,3% para 3,9%** (p = 0,00006, 431 pares), sem perder correções.
