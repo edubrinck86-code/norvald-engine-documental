@@ -1,4 +1,4 @@
-# Norvald documental engine
+<img src="assets/banner.svg" alt="Norvald documental engine — auditable AI answers over documents" width="100%">
 
 *[Português abaixo](#português)*
 

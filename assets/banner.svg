@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="230" viewBox="0 0 840 230">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#15110d"/>
+      <stop offset="1" stop-color="#0c0a08"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.85" cy="0.3" r="0.6">
+      <stop offset="0" stop-color="#d9ae78" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#d9ae78" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="0.5" y="0.5" width="839" height="229" rx="16" fill="url(#bg)" stroke="#2c241b"/>
+  <rect x="0.5" y="0.5" width="839" height="229" rx="16" fill="url(#glow)"/>
+  <!-- documento ligado a itens declarados -->
+  <g fill="none" stroke="#2c241b" stroke-width="1.5"><rect x="600" y="44" width="92" height="140" rx="6" fill="#15110d"/></g>
+  <g stroke="#a89a87" stroke-opacity="0.5" stroke-width="3" stroke-linecap="round">
+    <line x1="614" y1="66" x2="676" y2="66"/><line x1="614" y1="84" x2="666" y2="84"/>
+    <line x1="614" y1="120" x2="678" y2="120"/><line x1="614" y1="138" x2="656" y2="138"/><line x1="614" y1="162" x2="670" y2="162"/></g>
+  <g stroke="#d9ae78" stroke-width="3" stroke-linecap="round"><line x1="614" y1="102" x2="672" y2="102"/></g>
+  <path d="M694 102 C 720 102, 726 76, 752 76" stroke="#d9ae78" stroke-width="1.4" fill="none"/>
+  <path d="M694 150 C 720 150, 726 160, 752 160" stroke="#b98a55" stroke-width="1.4" stroke-dasharray="4 4" fill="none"/>
+  <rect x="752" y="62" width="62" height="28" rx="6" fill="#2a2118" stroke="#d9ae78"/>
+  <text x="783" y="81" text-anchor="middle" font-family="-apple-system, Helvetica, Arial, sans-serif" font-size="11" fill="#d9ae78">claim</text>
+  <rect x="752" y="146" width="62" height="28" rx="6" fill="none" stroke="#b98a55" stroke-dasharray="4 3"/>
+  <text x="783" y="165" text-anchor="middle" font-family="-apple-system, Helvetica, Arial, sans-serif" font-size="11" fill="#b98a55">gap</text>
+
+  <text x="44" y="56" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" letter-spacing="2.4" fill="#d9ae78">OPEN SOURCE · APACHE-2.0 · NORVALD</text>
+  <text x="44" y="108" font-family="Georgia, 'Times New Roman', serif" font-size="44" fill="#ece4d8">Documental engine</text>
+  <text x="44" y="148" font-family="Georgia, 'Times New Roman', serif" font-size="21" fill="#d9ae78" font-style="italic">Auditable AI answers over documents.</text>
+  <text x="44" y="186" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#a89a87">Every statement linked to its source; every gap recorded as an item.</text>
+</svg>
